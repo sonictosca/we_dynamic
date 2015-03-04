@@ -1,0 +1,358 @@
+@import "bootstrap/bootstrap";
+@import "font-awesome/font-awesome";
+@import "variables";
+
+@font-family-sans-serif: 'Droid Sans';
+
+@font-family-serif: 'Droid Serif';
+
+body, label, .checkbox label {
+	font-weight: 300;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  margin-bottom: 340px;
+}
+
+//Personalizzazione del carosello
+
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+
+.carousel .item-1 {
+  background: url(../assets/img/passaggio.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .item-2 {
+  background: url(../assets/img/ascoltiamo.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .item-3 {
+  background: url(../assets/img/realizziamo.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .item-4 {
+  background: url(../assets/img/raggiungi.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .graph-1 {
+  background: url(../assets/img/web_design.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .graph-2 {
+  background: url(../assets/img/sem_seo.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .graph-3 {
+  background: url(../assets/img/brand.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .graph-4 {
+  background: url(../assets/img/commerce.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .graph-5 {
+  background: url(../assets/img/social.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel .graph-6 {
+  background: url(../assets/img/foto.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+@media (min-width: 768px) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+.carousel-control.left {
+  background-image: none;
+  background-color: transparent;
+}
+
+.carousel-control.right {
+  background-image: none;
+  background-color: transparent;
+}
+
+//Fine del carosello
+
+.starter-template {
+  padding: 40px 15px;
+  //text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: @col_footer;
+  color: white;
+
+  a:link {
+    color: @col_light_blue;
+  }
+
+  a:visited {
+    color: @col_light_blue;
+  }
+
+  a:hover {
+    color: @col_logo_blue;
+  }
+  z-index: 1001;
+}
+
+#barra {
+  position: relative;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background: #18171c;
+  z-index: 1002;
+  box-shadow: 5px 10px 5px #000;
+}
+
+.welcome {
+  height: 300px;
+  background-color: #191919;
+  color: #fff;
+  position: relative;
+  .welcome-message {
+    background-color: hsla(0,0,1%,0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 40px;
+    strong {
+      font-size: 1.5em;
+      text-transform: uppercase;
+    }
+  }
+  .btn {
+    margin-top: 16px;
+  }
+
+  @media (min-width: @screen-sm-min) {
+    height: 480px;
+    .container {
+      position: relative;
+    }
+    .welcome-message {
+      right: 20%;
+      bottom: auto;
+      strong {
+        display: block;
+      }
+      .img-responsive {
+        max-width: 70%;
+      }
+    }
+  }
+}
+
+#about-intro {
+  @media (max-width: @screen-sm-max) {
+    background: #191919 url('../img/team.jpg') center center no-repeat;
+    .welcome-message {
+      .img-responsive {
+        max-width: 38%;
+      }
+    }
+  }
+
+  @media (min-width: @screen-md-min) {
+    height: 540px;
+    background: #191919 url('../img/team.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .welcome-message {
+      right: 50%;
+    }
+  }
+}
+
+.navbar .nav {
+  font-family: @font-family-serif;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 12px 30px 0 15px;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+  @media (min-width: @grid-float-breakpoint) {
+    .navbar > .container & {
+      margin-left: -@navbar-padding-horizontal;
+    }
+  }
+}
+
+@media(min-width: @grid-float-breakpoint) {
+
+  #bar-logo {
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+  }
+
+  .navbar {
+    border-bottom: 0;
+    letter-spacing: 1px;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+  }
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.ng-invalid.ng-dirty {
+  border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+  border-color: #78FA89;
+}
+/*
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+.nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: -20px;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+*/
+
+.main {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+// Sezione d'impatto
+#impact {
+  .hreview {
+    position: relative;
+    padding: 0 10px;
+    border: none;
+  }
+
+  .caption {
+    position: absolute;
+    top: auto;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    line-height: 1.1;
+    background: hsla(0,0,10%,0.55);
+    blockquote,
+    .reviewer {
+      margin: 0 6px;
+      padding: 0;
+    }
+  }
+  blockquote {
+    margin-top: 4px;
+    border: none;
+    font-family: @font-family-serif;
+    font-size: @font-size-large;
+    color: #fff;
+
+    .reviewer {
+      margin-top: 2px;
+      margin-bottom: 4px;
+      color: @gray-lighter;
+    }
+  }
+}
