@@ -11,7 +11,6 @@
         <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
         <p>
           siamo una realtà con <em>un'ampia</em> offerta di servizi avanzati di comunicazione, soluzioni informatiche, tecnologie e office.
-          <a href="#features" class="btn btn-lg btn-primary pull-right">Scopri di più <span class="icon fa fa-arrow-circle-down"></span></a>
         </p>
       </div>
     </div>

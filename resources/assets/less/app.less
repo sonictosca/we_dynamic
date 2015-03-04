@@ -223,6 +223,52 @@ a:hover {
   }
 }
 
+#service-intro {
+  @media (max-width: @screen-sm-max) {
+    background: #191919 url('../assets/img/service.jpg') center center no-repeat;
+    .welcome-message {
+      .img-responsive {
+        max-width: 38%;
+      }
+    }
+  }
+
+  @media (min-width: @screen-md-min) {
+    height: 540px;
+    background: #191919 url('../assets/img/service.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .welcome-message {
+      right: 50%;
+    }
+  }
+}
+
+#other-intro {
+  @media (max-width: @screen-sm-max) {
+    background: #191919 url('../assets/img/traduzioni.jpg') center center no-repeat;
+    .welcome-message {
+      .img-responsive {
+        max-width: 38%;
+      }
+    }
+  }
+
+  @media (min-width: @screen-md-min) {
+    height: 540px;
+    background: #191919 url('../assets/img/traduzioni.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .welcome-message {
+      right: 50%;
+    }
+  }
+}
+
 .navbar .nav {
   font-family: @font-family-serif;
 }

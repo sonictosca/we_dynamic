@@ -11603,6 +11603,10 @@ Y.prototype.load=function(a){a(this.m)};function Z(a,b){this.c=a;this.e=b}Z.prot
         $('#homeBtn').addClass('active');
       } else if (pathname === '/about') {
         $('#aboutBtn').addClass('active');
+      } else if (pathname === '/altro') {
+          $('#otherBtn').addClass('active');
+      } else if (pathname === '/contatti') {
+          $('#contactsBtn').addClass('active');
       }
     });
 }) ();

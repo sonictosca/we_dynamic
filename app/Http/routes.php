@@ -22,6 +22,15 @@ Route::get('about', function() {
 Route::get('grafica', function() {
   return view('grafica');
 });
+Route::get('servizi', function() {
+    return view('servizi');
+});
+Route::get('altro', function() {
+    return view('altro');
+});
+Route::get('contatti', function() {
+    return view('contatti');
+});
 
 Route::get('home', 'HomeController@index');
 

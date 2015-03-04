@@ -46,8 +46,8 @@
                             <li><a href="#punti">Punti Vendita & Showroom</a></li>
                         </ul>
                     </li>
-                    <li ng-class="{active: navCtrl.service}"><a href="itc_service.html">Servizi IT</a></li>
-                    <li ng-class="{active: navCtrl.other}"><a href="other.html">Altri Servizi</a></li>
+                    <li><a href="servizi">Servizi IT</a></li>
+                    <li><a href="altro">Altri Servizi</a></li>
                     <li ng-class="{active: navCtrl.case}"><a href="case_studies.html">Case Studies</a></li>
                     <li><a href="#">Contatti</a></li>
                     <!-- <li><a href="#">News</a></li> -->

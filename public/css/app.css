@@ -8081,6 +8081,42 @@ a:hover {
     right: 50%;
   }
 }
+@media (max-width: 991px) {
+  #service-intro {
+    background: #191919 url('../assets/img/service.jpg') center center no-repeat;
+  }
+  #service-intro .welcome-message .img-responsive {
+    max-width: 38%;
+  }
+}
+@media (min-width: 992px) {
+  #service-intro {
+    height: 540px;
+    background: #191919 url('../assets/img/service.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  #service-intro .welcome-message {
+    right: 50%;
+  }
+}
+@media (max-width: 991px) {
+  #other-intro {
+    background: #191919 url('../assets/img/traduzioni.jpg') center center no-repeat;
+  }
+  #other-intro .welcome-message .img-responsive {
+    max-width: 38%;
+  }
+}
+@media (min-width: 992px) {
+  #other-intro {
+    height: 540px;
+    background: #191919 url('../assets/img/traduzioni.jpg') center center no-repeat;
+    background-size: cover;
+  }
+  #other-intro .welcome-message {
+    right: 50%;
+  }
+}
 .navbar .nav {
   font-family: 'Droid Serif';
 }

@@ -57,6 +57,10 @@
         $('#homeBtn').addClass('active');
       } else if (pathname === '/about') {
         $('#aboutBtn').addClass('active');
+      } else if (pathname === '/altro') {
+          $('#otherBtn').addClass('active');
+      } else if (pathname === '/contatti') {
+          $('#contactsBtn').addClass('active');
       }
     });
 }) ();
