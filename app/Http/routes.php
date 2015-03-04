@@ -14,7 +14,13 @@
 //Route::get('/', 'WelcomeController@index');
 
 Route::get('/', function() {
-    return view('inizio');
+    return view('avvio');
+});
+Route::get('about', function() {
+  return view('about');
+});
+Route::get('grafica', function() {
+  return view('grafica');
 });
 
 Route::get('home', 'HomeController@index');

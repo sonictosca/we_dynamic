@@ -11575,5 +11575,38 @@ Y.prototype.load=function(a){a(this.m)};function Z(a,b){this.c=a;this.e=b}Z.prot
             families: ['Droid Sans', 'Droid Serif']
         }
     });
+
+    /*
+      funzione di scroll per navigazione
+    */
+
+    function scrollToSection(id) {
+      var sectionTag = $('#' + id);
+      $('html, body').animate({scrollTop: sectionTag.offset().top}, 'slow');
+    }
+
+    $("#graphicsDesignLink").click(function() {
+      scrollToSection('graphicsDesign');
+      $('#graphicsDesignBtn').addClass('active');
+    });
+
+    /*
+      Funzione di avvio aggiunge style alla barra di navigazione
+    */
+
+    $(document).ready(function() {
+      var pathname = window.location.pathname;
+      var url = window.location.href;
+      console.log('url ' + url);
+      console.log('pathname ' + pathname);
+      if (pathname === '/') {
+        $('#homeBtn').addClass('active');
+      } else if (pathname === '/about') {
+        $('#aboutBtn').addClass('active');
+      } else if (pathname === '/grafica') {
+        $('#graficaBtn').addClass('active');
+      }
+    });
 }) ();
+
 //# sourceMappingURL=all.js.map

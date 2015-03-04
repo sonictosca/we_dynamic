@@ -8065,7 +8065,7 @@ a:hover {
 }
 @media (max-width: 991px) {
   #about-intro {
-    background: #191919 url('../img/team.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/team.jpg') center center no-repeat;
   }
   #about-intro .welcome-message .img-responsive {
     max-width: 38%;
@@ -8074,7 +8074,7 @@ a:hover {
 @media (min-width: 992px) {
   #about-intro {
     height: 540px;
-    background: #191919 url('../img/team.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/team.jpg') center center no-repeat;
     background-size: cover;
   }
   #about-intro .welcome-message {

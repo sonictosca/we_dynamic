@@ -8,18 +8,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="assets/img/LOGO_SMALL.png" id="bar-logo" alt="We Can" width="120" style="opacity: 0;"></a>
+                <a class="navbar-brand" href="/"><img src="assets/img/LOGO_SMALL.png" id="bar-logo" alt="We Can" width="120" style="opacity: 0;"></a>
             </div>
             <div id="navbar" class="container navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li ng-class="{active: navCtrl.home}"><a href="index.html">Home</a></li>
-                    <li ng-class="{active: navCtrl.about}"><a href="about.html">Chi Siamo</a></li>
+                    <li id="homeBtn"><a href="/">Home</a></li>
+                    <li id="aboutBtn"><a href="about">Chi Siamo</a></li>
                     <!--<li ng-class="{active: navCtrl.grafica}"><a href="grafica.html">Web & Grafica</a></li>-->
-                    <li ng-class="{active: navCtrl.grafica}" class="dropdown">
+                    <li id="graficaBtn" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Web & Grafica <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li ng-class="{active: navCtrl.grafica}"><a href="grafica.html">Web & Grafica</a></li>
-                            <li><a href="grafica.html#/graphicDesign">Graphic Design</a></li>
+                            <li><a href="grafica">Web & Grafica</a></li>
+                            <li id="graphicsDesignBtn"><a id="graphicsDesignLink" href="grafica#graphicDesign">Graphic Design</a></li>
                         </ul>
                     </li>
                     <li ng-class="{active: navCtrl.service}"><a href="itc_service.html">Servizi IT</a></li>
