@@ -32,7 +32,7 @@
 
     /*
       funzione di scroll per navigazione
-    */
+
 
     function scrollToSection(id) {
       var sectionTag = $('#' + id);
@@ -43,7 +43,7 @@
       scrollToSection('graphicsDesign');
       $('#graphicsDesignBtn').addClass('active');
     });
-
+    */
     /*
       Funzione di avvio aggiunge style alla barra di navigazione
     */
@@ -57,8 +57,6 @@
         $('#homeBtn').addClass('active');
       } else if (pathname === '/about') {
         $('#aboutBtn').addClass('active');
-      } else if (pathname === '/grafica') {
-        $('#graficaBtn').addClass('active');
       }
     });
 }) ();

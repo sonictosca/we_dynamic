@@ -1,10 +1,63 @@
-@extends('inizio')
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Riccardo Sartori">
+    <title>WE CAN GROUP | Web Agency, Creazione Siti Web, Realizzazione Siti Web - Web & Grafica</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link href="css/app.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html4shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".navbar">
 
-@section('titolo')
-<title>WE CAN GROUP | Web Agency, Creazione Siti Web, Realizzazione Siti Web - Web & Grafica</title>
-@stop
+<header role="banner">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="assets/img/LOGO_SMALL.png" id="bar-logo" alt="We Can" width="120" style="opacity: 0;"></a>
+            </div>
+            <div id="navbar" class="container navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li id="homeBtn"><a href="/">Home</a></li>
+                    <li id="aboutBtn"><a href="about">Chi Siamo</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Web & Grafica <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#graphicDesign">Graphic Design</a></li>
+                            <li><a href="#realizzazione">Realizzazione Siti</a></li>
+                            <li><a href="#sitiMobile">Siti Mobile</a></li>
+                            <li><a href="#cms">Content Management System CMS</a></li>
+                            <li><a href="#commerce">E-Commerce</a></li>
+                            <li><a href="#seo">Search Engine Optimization SEO</a></li>
+                            <li><a href="#sem">Search Engine Marketing SEM</a></li>
+                            <li><a href="#socialMedia">Social Media Marketing</a></li>
+                            <li><a href="#fiere">Fiere ed Eventi</a></li>
+                            <li><a href="#punti">Punti Vendita & Showroom</a></li>
+                        </ul>
+                    </li>
+                    <li ng-class="{active: navCtrl.service}"><a href="itc_service.html">Servizi IT</a></li>
+                    <li ng-class="{active: navCtrl.other}"><a href="other.html">Altri Servizi</a></li>
+                    <li ng-class="{active: navCtrl.case}"><a href="case_studies.html">Case Studies</a></li>
+                    <li><a href="#">Contatti</a></li>
+                    <!-- <li><a href="#">News</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-@section('contenuto')
+
 <!-- Carousel with multiple images -->
   <section id="intro">
 
@@ -109,121 +162,117 @@
           <br />
           @include('partials.contatti')
         </div>
-        <section id="graphicsDesign">
-          <div class="starter-template col-md-8">
-            <h1>L'identità e il simbolo del vostro business - Graphic Design</h1>
-            <p>
-              L'avvento della rete ha portato ad un radicale cambiamento dei metodi
-              di comunicazione. Il web è diventato con il tempo uno dei canali preferenziali
-              per informare i propri clienti sulle attività e i servizi offerti dall'azienda,
-              ma per sua natura non offre l'immediatezza desiderata in ogni situazione anzi,
-              talvolta può risultare inaccessibile per una serie di fattori politici.
-            </p>
-            <p>
-              &Egrave; quindi necessario rafforzare la comunicazione on-line attraverso
-              l'uso di strumenti di comunicazione "tradizionali": il processo di integrazione delle
-              due forme di comunicazione genera valore aggiunto e potenzia il messaggio finale da parte
-              dell'azienda al cliente.
-            </p>
-            <p>
-              Nel mercato contemporaneo un'impresa si impone sopratutto attraverso l'affermazione
-              di un'identità forte, in grado di trasmettere chiaramente i suoi valori: per
-              conquistare il mercato è necessario proporsi al meglio, con un'immagine coordinata
-              ben definita, coerente e calibrata, che renda l'azienda inconfondibile.
-            </p>
-            <h2>Studio e progettazione del logo</h2>
-            <p>
-              Il logo è il segno distintivo di un'azienda, ciò che la identifica nella collettività,
-              che ne ricorda costantemente servizi e prodotti e sopratutto ciò che la distingue dalla
-              concorrenza. Realizziamo o sottoponiamo a restyling il vostro marchio o il vostro logo
-              per trasformare un semplice segno nell'emblema della vostra qualità. Il vostro marchio
-              diventerà uno strumento di affermazione professionale, un mezzo utile per il riconoscimento
-              istantaneo dei vostri prodotti e servizi, un'arma di sviluppo per la vostra attività.
-              Moduleremo per voi gli stili e i colori più adatti alla vostra identità, realizzando una
-              composizione gradevole ed efficace, capace soprattutto di rimanere in mente: il vostro
-              logo sarà il simbolo del vostro business.
-            </p>
-            <h2>Immagine coordinata</h2>
-            <p>
-              L'immagine coordinata di un'azienda è lo specchio della serietà e della professionalità del vostro
-              lavoro; deve saper presentare la vostra azienda con serietà. Un semplice biglietto da visita
-              può valere più di mille parole.
-            </p>
-            <h2>Brochure - Cataloghi</h2>
-            <p>
-              Strumenti promozionali di impatto, sono mezzi di comunicazione necessari per far parlare di sé:
-              il segreto per farsi apprezzare è fornire all'utente informazioni dettagliate e ben esposte.
-              La brochure quindi è ancora oggi il mezzo più pratico e veloce per entrare in contatto con il brand
-              e rappresenta una necessità irrinunciabile costituendo un importante mezzo di comunicazione e di
-              immagine per le imprese soprattutto in occasione di eventi, convegni o manifestazioni. La brochure
-              è inoltre integrabile con il catalogo prodotti, schede informative, CD-ROM multimediali o DVD.
-            </p>
-            <p>
-              In ogni progetto di realizzazione di brochure aziendale devono essere necessariamente valutati
-              alcuni parametri che incidono in maniera significativa sull'efficacia del prodotto e sul suo
-              costo di realizzazione, quali:
-              <ul>
-                <li>finalità di utilizzo e target di riferimento.</li>
-                <li>tipologia dei prodotti o dei servizi presentati.</li>
-                <li>identificazione della copy strategy e del consumer benefit.</li>
-                <li>sviluppo dei contenuti: testi (copy) e fotografici (visual)</li>
-                <li>tiratura prevista e tipo di stampa (offset o digitale)</li>
-                <li>grammatura della carta</li>
-                <li>lavorazioni tipografiche (lucidatura, punzonatura, plastificazione, stampa a secco, &hellip;)</li>
-              </ul>
-            </p>
-            <p>
-              We Can Group, sa quanto l'immagine sia importante per un brand per questo pone estrema
-              attenzione al processo di realizzazione fino alla messa in stampa finale del prodotto, curando
-              ogni dettaglio. Affiancata inoltre da esperte aziende tecnico/tipografiche, assicura un costante
-              controllo qualitativo del prodotto in fase di progettazione alla fase di produzione.
-            </p>
-          </div>
-        </section>
-        <section id="realizzazioneSiti">
-          <div class="starter-template col-md-8">
-            <h1>Sviluppo siti internet, portali, blog, e-commerce - Realizzazione Siti</h1>
-            <p>
-              Noi di <strong>We Can Group</strong> pensiamo che un sito web non
-              sia solamente un biglietto da visita o una vetrina virtuale, ma sia
-              un mezzo per comunicare, uno strumento che deve trasmettere all'utente
-              un messaggio in maniera chiara ed immediata. Per ottenere questo risultato
-              la grafica di un sito è di primaria importanza.
-            </p>
-            <p>
-              &Egrave; per questo che mettiamo il massimo impegno nel curare
-              l'<strong>immagine della tua azienda</strong>, prestando attenzione
-              non solo all'aspetto grafico, ma curando anche altri aspetti altrettanto
-              fondamentali, come l'accessibilità, l'efficacia dei testi descrittivi, la
-              velocità di caricamento delle pagine e la compatibilità corss-browser.
-            </p>
-            <p>
-              Tutti i siti web che progettiamo sono realizzati in base alle esigenze del cliente,
-              pianificando una <strong>precisa strategia di comunicazione</strong> per il
-              raggiungimenti degli obiettivi prefissati. Il rispetto dei tempi e dei costi
-              prestabiliti è di primaria importanza, così come crediamo sia fondamentale
-              l'assistenza ed il supporto anche a lavoro ultimato.
-            </p>
-            <p>
-              La nostra professionalità abbinata all'ottimizzazione del processo produttivo,
-              ci permette di realizzare siti web di assoluto livello e a prezzi competitivi
-              rispetto al mercato.
-            </p>
-            <h2>Siti Web per ogni esigenza</h2>
-            <p>
-              Possiamo realizzare siti web statici, siti web dinamici arricchiti da animazioni
-              in javascript, siti e-commerce per il commercio elettronico, portali complessi
-              multilingua, siti mobile e blog per aziende e professionisti.
-            </p>
-            <p>
-              Su richiesta, ognuno dei siti che realizziamo può avere integrato un pannello di controllo
-              CMS, che consente di aggiornare, modificare o creare nuovi contenuti e pagine, in maniera
-              semplice e del tutto autonoma.
-            </p>
-          </div>
-        </section>
-        <div class="starter-template col-md-8">
-          <h1>Il tuo sito e la tua attività su ogni dispositivo - Siti Mobile</h1>
+      <div id="graphicDesign" class="starter-template col-md-8">
+        <h1>L'identità e il simbolo del vostro business</h1>
+        <p>
+          L'avvento della rete ha portato ad un radicale cambiamento dei metodi
+          di comunicazione. Il web è diventato con il tempo uno dei canali preferenziali
+          per informare i propri clienti sulle attività e i servizi offerti dall'azienda,
+          ma per sua natura non offre l'immediatezza desiderata in ogni situazione anzi,
+          talvolta può risultare inaccessibile per una serie di fattori politici.
+        </p>
+        <p>
+          &Egrave; quindi necessario rafforzare la comunicazione on-line attraverso
+          l'uso di strumenti di comunicazione "tradizionali": il processo di integrazione delle
+          due forme di comunicazione genera valore aggiunto e potenzia il messaggio finale da parte
+          dell'azienda al cliente.
+        </p>
+        <p>
+          Nel mercato contemporaneo un'impresa si impone sopratutto attraverso l'affermazione
+          di un'identità forte, in grado di trasmettere chiaramente i suoi valori: per
+          conquistare il mercato è necessario proporsi al meglio, con un'immagine coordinata
+          ben definita, coerente e calibrata, che renda l'azienda inconfondibile.
+        </p>
+        <h2>Studio e progettazione del logo</h2>
+        <p>
+          Il logo è il segno distintivo di un'azienda, ciò che la identifica nella collettività,
+          che ne ricorda costantemente servizi e prodotti e sopratutto ciò che la distingue dalla
+          concorrenza. Realizziamo o sottoponiamo a restyling il vostro marchio o il vostro logo
+          per trasformare un semplice segno nell'emblema della vostra qualità. Il vostro marchio
+          diventerà uno strumento di affermazione professionale, un mezzo utile per il riconoscimento
+          istantaneo dei vostri prodotti e servizi, un'arma di sviluppo per la vostra attività.
+          Moduleremo per voi gli stili e i colori più adatti alla vostra identità, realizzando una
+          composizione gradevole ed efficace, capace soprattutto di rimanere in mente: il vostro
+          logo sarà il simbolo del vostro business.
+        </p>
+        <h2>Immagine coordinata</h2>
+        <p>
+          L'immagine coordinata di un'azienda è lo specchio della serietà e della professionalità del vostro
+          lavoro; deve saper presentare la vostra azienda con serietà. Un semplice biglietto da visita
+          può valere più di mille parole.
+        </p>
+        <h2>Brochure - Cataloghi</h2>
+        <p>
+          Strumenti promozionali di impatto, sono mezzi di comunicazione necessari per far parlare di sé:
+          il segreto per farsi apprezzare è fornire all'utente informazioni dettagliate e ben esposte.
+          La brochure quindi è ancora oggi il mezzo più pratico e veloce per entrare in contatto con il brand
+          e rappresenta una necessità irrinunciabile costituendo un importante mezzo di comunicazione e di
+          immagine per le imprese soprattutto in occasione di eventi, convegni o manifestazioni. La brochure
+          è inoltre integrabile con il catalogo prodotti, schede informative, CD-ROM multimediali o DVD.
+        </p>
+        <p>
+          In ogni progetto di realizzazione di brochure aziendale devono essere necessariamente valutati
+          alcuni parametri che incidono in maniera significativa sull'efficacia del prodotto e sul suo
+          costo di realizzazione, quali:
+          <ul>
+            <li>finalità di utilizzo e target di riferimento.</li>
+            <li>tipologia dei prodotti o dei servizi presentati.</li>
+            <li>identificazione della copy strategy e del consumer benefit.</li>
+            <li>sviluppo dei contenuti: testi (copy) e fotografici (visual)</li>
+            <li>tiratura prevista e tipo di stampa (offset o digitale)</li>
+            <li>grammatura della carta</li>
+            <li>lavorazioni tipografiche (lucidatura, punzonatura, plastificazione, stampa a secco, &hellip;)</li>
+          </ul>
+        </p>
+        <p>
+          We Can Group, sa quanto l'immagine sia importante per un brand per questo pone estrema
+          attenzione al processo di realizzazione fino alla messa in stampa finale del prodotto, curando
+          ogni dettaglio. Affiancata inoltre da esperte aziende tecnico/tipografiche, assicura un costante
+          controllo qualitativo del prodotto in fase di progettazione alla fase di produzione.
+        </p>
+      </div>
+      <div id="realizzazione" class="starter-template col-md-8">
+        <h1>Sviluppo siti internet, portali, blog, e-commerce</h1>
+        <p>
+          Noi di <strong>We Can Group</strong> pensiamo che un sito web non
+          sia solamente un biglietto da visita o una vetrina virtuale, ma sia
+          un mezzo per comunicare, uno strumento che deve trasmettere all'utente
+          un messaggio in maniera chiara ed immediata. Per ottenere questo risultato
+          la grafica di un sito è di primaria importanza.
+        </p>
+        <p>
+          &Egrave; per questo che mettiamo il massimo impegno nel curare
+          l'<strong>immagine della tua azienda</strong>, prestando attenzione
+          non solo all'aspetto grafico, ma curando anche altri aspetti altrettanto
+          fondamentali, come l'accessibilità, l'efficacia dei testi descrittivi, la
+          velocità di caricamento delle pagine e la compatibilità corss-browser.
+        </p>
+        <p>
+          Tutti i siti web che progettiamo sono realizzati in base alle esigenze del cliente,
+          pianificando una <strong>precisa strategia di comunicazione</strong> per il
+          raggiungimenti degli obiettivi prefissati. Il rispetto dei tempi e dei costi
+          prestabiliti è di primaria importanza, così come crediamo sia fondamentale
+          l'assistenza ed il supporto anche a lavoro ultimato.
+        </p>
+        <p>
+          La nostra professionalità abbinata all'ottimizzazione del processo produttivo,
+          ci permette di realizzare siti web di assoluto livello e a prezzi competitivi
+          rispetto al mercato.
+        </p>
+        <h2>Siti Web per ogni esigenza</h2>
+        <p>
+          Possiamo realizzare siti web statici, siti web dinamici arricchiti da animazioni
+          in javascript, siti e-commerce per il commercio elettronico, portali complessi
+          multilingua, siti mobile e blog per aziende e professionisti.
+        </p>
+        <p>
+          Su richiesta, ognuno dei siti che realizziamo può avere integrato un pannello di controllo
+          CMS, che consente di aggiornare, modificare o creare nuovi contenuti e pagine, in maniera
+          semplice e del tutto autonoma.
+        </p>
+      </div>
+        <div id="sitiMobile" class="starter-template col-md-8">
+          <h1>Il tuo sito e la tua attività su ogni dispositivo</h1>
           <p>
             Il <strong>futuro è mobile</strong>, il web ormai è accessibile e alla
             portata di tutti grazie alle connessioni veloci e ai cellulari sempre più smart,
@@ -267,10 +316,10 @@
             azienda mobile ready!
           </p>
         </div>
-        <div class="starter-template col-md-8">
+        <div id="cms" class="starter-template col-md-8">
           <h1>
             Realizzazione CMS per siti dinamici. Sviluppo Content Management
-            System facili da gestire ed ottimizzati per il SEO - CMS
+            System facili da gestire ed ottimizzati per il SEO
           </h1>
           <h3>
             Vi piacerebbe poter <strong>gestire e modificare</strong> ogni
@@ -329,8 +378,8 @@
             <a href="mailto:info@wecangroup.it">contattaci!</a>
           </p>
         </div>
-        <div class="starter-template col-md-8">
-          <h1>Sviluppo piattaforme web professionali per il Commercio Elettronico - E-Commerce</h1>
+        <div id="commerce" class="starter-template col-md-8">
+          <h1>Sviluppo piattaforme web professionali per il Commercio Elettronico</h1>
           <p>
             <em>Vorresti vendere on-line i prodotti o i servizi offerti dalla tua azienda?</em><br />
             Allora quello che ti serve è un sito per il commercio elettronico, meglio conosciuto come
@@ -399,8 +448,8 @@
             <a href="mailto:info@wecangroup.it">contattaci!</a>
           </p>
         </div>
-        <div class="starter-template col-md-8">
-          <h1>Ottimizzazione siti web per il posizionamento nei motori di ricerca - SEO</h1>
+        <div id="seo" class="starter-template col-md-8">
+          <h1>Ottimizzazione siti web per il posizionamento nei motori di ricerca</h1>
           <p>
             <em>
               Comprereste un quadro di Picasso per poi tenerlo in cassaforte?
@@ -457,10 +506,10 @@
             </ol>
           </p>
         </div>
-        <div class="starter-template col-md-8">
+        <div id="sem" class="starter-template col-md-8">
           <h1>
             Vuoi che il tuo sito web sia visibile sui motori di ricerca
-            in breve tempo? Search Engine Marketing - SEM
+            in breve tempo? Search Engine Marketing
           </h1>
           <p class="lead">
             <em>
@@ -578,8 +627,8 @@
             </ol>
           </p>
         </div>
-        <div class="starter-template col-md-8">
-          <h1>Pianificazione attività di marketing per la promozione sui social network - Social Media Marketing</h1>
+        <div id="socialMedia" class="starter-template col-md-8">
+          <h1>Pianificazione attività di marketing per la promozione sui social network</h1>
           <p>
             I Social Network sono le <strong>community più diffuse su internet</strong>,
             all'interno delle quali milioni di utenti in tutto il mondo si ritrovano
@@ -703,7 +752,7 @@
             </ol>
           </p>
         </div>
-        <div class="starter-template col-md-8">
+        <div id="fiere" class="starter-template col-md-8">
           <h1>Fiere ed Eventi</h1>
           <p>
             Gli eventi espositivi sono il punto di contatto tra produttore e
@@ -741,7 +790,7 @@
             </ul>
           </p>
         </div>
-        <div class="starter-template col-md-8">
+        <div id="punti" class="starter-template col-md-8">
           <h1>Punti Vendita e Showroom</h1>
           <p>
             I layout di punti vendita/showroom influenzano le vendite e l'apprezzamento
@@ -766,4 +815,9 @@
       </div>
     </div>
   </section>
-@stop
+
+@include('partials.fondo')
+
+<script src="js/all.js"></script>
+</body>
+</html>

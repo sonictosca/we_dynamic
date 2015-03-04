@@ -11578,7 +11578,7 @@ Y.prototype.load=function(a){a(this.m)};function Z(a,b){this.c=a;this.e=b}Z.prot
 
     /*
       funzione di scroll per navigazione
-    */
+
 
     function scrollToSection(id) {
       var sectionTag = $('#' + id);
@@ -11589,7 +11589,7 @@ Y.prototype.load=function(a){a(this.m)};function Z(a,b){this.c=a;this.e=b}Z.prot
       scrollToSection('graphicsDesign');
       $('#graphicsDesignBtn').addClass('active');
     });
-
+    */
     /*
       Funzione di avvio aggiunge style alla barra di navigazione
     */
@@ -11603,8 +11603,6 @@ Y.prototype.load=function(a){a(this.m)};function Z(a,b){this.c=a;this.e=b}Z.prot
         $('#homeBtn').addClass('active');
       } else if (pathname === '/about') {
         $('#aboutBtn').addClass('active');
-      } else if (pathname === '/grafica') {
-        $('#graficaBtn').addClass('active');
       }
     });
 }) ();

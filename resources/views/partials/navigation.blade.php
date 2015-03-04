@@ -14,18 +14,10 @@
                 <ul class="nav navbar-nav">
                     <li id="homeBtn"><a href="/">Home</a></li>
                     <li id="aboutBtn"><a href="about">Chi Siamo</a></li>
-                    <!--<li ng-class="{active: navCtrl.grafica}"><a href="grafica.html">Web & Grafica</a></li>-->
-                    <li id="graficaBtn" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Web & Grafica <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="grafica">Web & Grafica</a></li>
-                            <li id="graphicsDesignBtn"><a id="graphicsDesignLink" href="grafica#graphicDesign">Graphic Design</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="grafica">Web & Grafica</a></li>
                     <li ng-class="{active: navCtrl.service}"><a href="itc_service.html">Servizi IT</a></li>
                     <li ng-class="{active: navCtrl.other}"><a href="other.html">Altri Servizi</a></li>
                     <li ng-class="{active: navCtrl.case}"><a href="case_studies.html">Case Studies</a></li>
-                    <!-- <li><a href="#">People</a></li> -->
                     <li><a href="#">Contatti</a></li>
                     <!-- <li><a href="#">News</a></li> -->
                 </ul>
