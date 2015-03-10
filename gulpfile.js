@@ -13,6 +13,8 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.copy('vendor/bower_components/jquery/dist/jquery.js', 'resources/js/jquery.js')
+        .copy('vendor/bower_components/jquery-validation/dist/jquery.validate.js', 'resources/js/jquery.validate.js')
+        .copy('vendor/bower_components/jquery-validation/dist/additional-methods.js', 'resources/js/additional-methods.js')
         .copy('vendor/bower_components/bootstrap/dist/js/bootstrap.js', 'resources/js/bootstrap.js')
         .copy('vendor/bower_components/components-webfontloader/webfont.js', 'resources/js/webfont.js')
         .copy('vendor/bower_components/bootstrap/dist/fonts', 'public/fonts')
@@ -20,6 +22,8 @@ elixir(function(mix) {
         .copy('vendor/bower_components/components-font-awesome/less', 'resources/assets/less/font-awesome')
         .scripts([
             'jquery.js',
+            'jquery.validate.js',
+            'additional-methods.js',
             'bootstrap.js',
             'webfont.js',
             'app.js'

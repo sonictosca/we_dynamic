@@ -48,7 +48,7 @@
       Funzione di avvio aggiunge style alla barra di navigazione
     */
 
-    $(document).ready(function() {
+    $().ready(function() {
       var pathname = window.location.pathname;
       var url = window.location.href;
       console.log('url ' + url);
@@ -62,5 +62,62 @@
       } else if (pathname === '/contatti') {
           $('#contactsBtn').addClass('active');
       }
+    });
+
+    $('#contattiForm').validate({
+        rules: {
+            nomeCognome: {
+                required: true,
+                minlength: 2
+            },
+            telefono: {
+                required: true,
+                digits: true
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            txtMsg: {
+                required: true,
+                minlength: 8
+            },
+            consenso: {
+                required: true
+            }
+        },
+        messages: {
+            nomeCognome: {
+                required: 'Per favore inserite il vostro nome e cognome',
+                minlength: 'Il nome deve essere composto da almeno due caratteri'
+            },
+            telefono: {
+                required: 'Per favore inserite il vostro numero di telefono',
+                digits: 'Inserite un numero di telefono valido'
+            }
+        },
+        highlight: function(element) {
+            if (element.type !== 'checkbox') {
+                $(element).closest('.form-group').addClass('has-error');
+            } else {
+                $(element).closest('.checkbox').wrap("<div class='has-error'></div>");
+            }
+        },
+        unhighlight: function(element) {
+            if (element.type !== 'checkbox') {
+                $(element).closest('.form-group').removeClass('has-error');
+            } else {
+                $(element).closest('.checkbox').unwrap();
+            }
+        },
+        errorElement: 'span',
+        errorClass: 'help-block',
+        errorPlacement: function(error, element) {
+            if (element.parent('.input-group').length) {
+                error.insertAfter(element.parent());
+            } else {
+                error.insertAfter(element);
+            }
+        }
     });
 }) ();
