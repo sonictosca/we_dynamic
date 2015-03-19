@@ -10,7 +10,7 @@
                     Partita Iva e Codice Fiscale 03373510134<br />
                 </p>
                 <p>
-                    Copyright &copy; 2012 - 2015 | privacy | sitemap
+                    Copyright &copy; 2012 - 2015 | <a class="bianco" href="privacy">privacy</a> | sitemap
                 </p>
             </div>
             <div class="col-md-6 hidden-xs">
@@ -20,7 +20,8 @@
                     <a href="https://www.facebook.com/wecangroup.it"><i class="fa fa-facebook-square fa-4x"></i></a>
                 </p>
                 <p>
-                    Telefono +39 031.744823 - Fax +39 031.5472135
+                    Telefono +39 031.744823 - Fax +39 031.5472135<br />
+                    <a href="mailto:info@wecangroup.it">info@wecangroup.it</a>
                 </p>
             </div>
         </div>

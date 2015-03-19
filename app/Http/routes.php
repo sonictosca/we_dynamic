@@ -13,26 +13,25 @@
 
 //Route::get('/', 'WelcomeController@index');
 
-Route::get('/', function() {
-    return view('avvio');
-});
-Route::get('about', function() {
-  return view('about');
-});
-Route::get('grafica', function() {
-  return view('grafica');
-});
-Route::get('servizi', function() {
-    return view('servizi');
-});
-Route::get('altro', function() {
-    return view('altro');
-});
-Route::get('contatti', function() {
-    return view('contatti');
-});
+Route::get('/', 'PrincipaleController@index');
+Route::get('about', 'PrincipaleController@about');
+Route::get('grafica', 'PrincipaleController@grafica');
+Route::get('servizi', 'PrincipaleController@servizi');
+Route::get('altro', 'PrincipaleController@altro');
+Route::get('contatti', 'PrincipaleController@contatti');
+Route::get('privacy', 'PrincipaleController@privacy');
+Route::get('case', 'PrincipaleController@caseStudy');
 
-Route::get('home', 'HomeController@index');
+Route::get('admin', 'AdminController@index');
+Route::get('admin/addcase', 'AdminController@createCase');
+Route::post('admin/addcase', 'AdminController@storeCase');
+Route::get('admin/editcase/{useCase}', 'AdminController@editCase');
+Route::put('admin/editcase/{useCase}', 'AdminController@updateCase');
+Route::get('admin/upcase/{case}', 'AdminController@upCase');
+Route::get('admin/downcase/{case}', 'AdminController@downCase');
+Route::get('admin/deletecase/{case}', 'AdminController@deleteCase');
+
+//Route::get('home', 'HomeController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

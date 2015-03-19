@@ -17,7 +17,7 @@
                     <li><a href="grafica">Web & Grafica</a></li>
                     <li><a href="servizi">Servizi IT</a></li>
                     <li id="otherBtn"><a href="altro">Altri Servizi</a></li>
-                    <li ng-class="{active: navCtrl.case}"><a href="case_studies.html">Case Studies</a></li>
+                    <li ng-class="{active: navCtrl.case}"><a href="case">Case Studies</a></li>
                     <li id="contactsBtn"><a href="contatti">Contatti</a></li>
                     <!-- <li><a href="#">News</a></li> -->
                 </ul>

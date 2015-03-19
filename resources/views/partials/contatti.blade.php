@@ -2,8 +2,8 @@
     <div class="panel-heading">
         <h3 class="panel-title">Mettiti in contatto con noi</h3>
     </div>
-    <div class="alert alert-success" role="alert"><strong>Complimenti!</strong> la sua richiesta è stata persa in carico dal nostro sistema.</div>
-    <div class="alert alert-danger" role="alert"><strong>Attenzione!</strong> si è verficato un errore riprovare più tardi</div>
+    <!--<div class="alert alert-success" role="alert"><strong>Complimenti!</strong> la sua richiesta è stata persa in carico dal nostro sistema.</div>-->
+    <!--<div class="alert alert-danger" role="alert"><strong>Attenzione!</strong> si è verficato un errore riprovare più tardi</div>-->
     <div class="panel-body">
         {!! Form::open(array('url' => 'invia', 'id' => 'contattiForm')) !!}
             <div class="form-group">

@@ -42,8 +42,8 @@
                         </ul>
                     </li>
                     <li><a href="altro">Altri Servizi</a></li>
-                    <li ng-class="{active: navCtrl.case}"><a href="case_studies.html">Case Studies</a></li>
-                    <li><a href="#">Contatti</a></li>
+                    <li ng-class="{active: navCtrl.case}"><a href="case">Case Studies</a></li>
+                    <li><a href="contatti">Contatti</a></li>
                     <!-- <li><a href="#">News</a></li> -->
                 </ul>
             </div>
@@ -56,8 +56,8 @@
     <div class="container">
         <div class="welcome-message">
             <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
-            <p>
-                Hai un'esigenza diversa dal web? Yes, We Can&hellip; We Can Group!
+            <p class="text-center">
+                Hai un'esigenza diversa dal web? Yes, We Can&hellip;<br />We Can Group!
             </p>
         </div>
     </div>

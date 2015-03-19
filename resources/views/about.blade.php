@@ -9,7 +9,7 @@
     <div class="container">
       <div class="welcome-message">
         <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
-        <p>
+        <p class="text-center">
           siamo una realtà con <em>un'ampia</em> offerta di servizi avanzati di comunicazione, soluzioni informatiche, tecnologie e office.
         </p>
       </div>
