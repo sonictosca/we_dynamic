@@ -53,58 +53,60 @@
                         del testo sorgente; è la garanzia che il vostro messaggio sia comunicato al
                         mercato destinatario nel modo migliore.
                     </p>
-                    <h2>I nostri servizi d'interpretariato</h2>
-                    <p>
-                    <ul>
-                        <li>
-                            Traduzioni di documenti
-                        </li>
-                        <li>
-                            Traduzioni letterarie
-                        </li>
-                        <li>
-                            Traduzioni legali
-                        </li>
-                        <li>
-                            Traduzioni commerciali
-                        </li>
-                        <li>
-                            Traduzioni tecniche
-                        </li>
-                        <li>
-                            Loacalizzazione di siti web
-                        </li>
-                        <li>
-                            Localizzazione di software
-                        </li>
-                        <li>
-                            Traduzioni mediche
-                        </li>
-                    </ul>
-                    </p>
-                    <p>
-                        Attraverso <strong>We Can Group</strong> potrete comunicare con tutto
-                        il mondo in modo chiaro e preciso nella lingua del vostro interlocutore.
-                    </p>
-                    <p>
-                        Il modo migliore per intraprendere nuovi contatti e consolidare quelli
-                        acquisiti, è far sentire chi siede di fronte a noi a proprio agio. Vi
-                        accompagneremo in tutti gli stadi: servizi di interpretariato durante le
-                        trattative, traduzioni e se vorrete potremo accompagnarvi durante fiere
-                        in Italia o allìestero.
-                    </p>
-                    <p>
-                        Per gli operatori del turismo poter offrire ai propri clienti un interprete
-                        che li accompagni nella loro attività lavorative e nei momenti di svago visitando
-                        le nostre belle città, è sicuramente un valore aggiunto.
-                    </p>
-                    <p>
-                        I nostri servizi d'interpretariato sono qualificati, perchè ci avvaliamo esclusivamente
-                        di professionisti con anni di esperienza sulle spalle.
-                    </p>
-                    <p>
-                        Ne diciamo di tutte le lingue... contattateci per avere più informazioni.
-                    </p>
+                    <div id="interpretariato">
+                        <h2>I nostri servizi d'interpretariato</h2>
+                        <p>
+                        <ul>
+                            <li>
+                                Traduzioni di documenti
+                            </li>
+                            <li>
+                                Traduzioni letterarie
+                            </li>
+                            <li>
+                                Traduzioni legali
+                            </li>
+                            <li>
+                                Traduzioni commerciali
+                            </li>
+                            <li>
+                                Traduzioni tecniche
+                            </li>
+                            <li>
+                                Loacalizzazione di siti web
+                            </li>
+                            <li>
+                                Localizzazione di software
+                            </li>
+                            <li>
+                                Traduzioni mediche
+                            </li>
+                        </ul>
+                        </p>
+                        <p>
+                            Attraverso <strong>We Can Group</strong> potrete comunicare con tutto
+                            il mondo in modo chiaro e preciso nella lingua del vostro interlocutore.
+                        </p>
+                        <p>
+                            Il modo migliore per intraprendere nuovi contatti e consolidare quelli
+                            acquisiti, è far sentire chi siede di fronte a noi a proprio agio. Vi
+                            accompagneremo in tutti gli stadi: servizi di interpretariato durante le
+                            trattative, traduzioni e se vorrete potremo accompagnarvi durante fiere
+                            in Italia o allìestero.
+                        </p>
+                        <p>
+                            Per gli operatori del turismo poter offrire ai propri clienti un interprete
+                            che li accompagni nella loro attività lavorative e nei momenti di svago visitando
+                            le nostre belle città, è sicuramente un valore aggiunto.
+                        </p>
+                        <p>
+                            I nostri servizi d'interpretariato sono qualificati, perchè ci avvaliamo esclusivamente
+                            di professionisti con anni di esperienza sulle spalle.
+                        </p>
+                        <p>
+                            Ne diciamo di tutte le lingue... contattateci per avere più informazioni.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <br />

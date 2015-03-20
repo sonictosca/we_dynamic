@@ -14,7 +14,7 @@
     <script src="js/ie-bootstrap-carousel.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar">
 @include('partials.navigation')
 
 @yield('contenuto')

@@ -1,57 +1,11 @@
-<!doctype html>
-<html lang="it">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Riccardo Sartori">
+@extends('inizio')
+
+@section('titolo')
     <title>WE CAN GROUP | Web Agency, Creazione Siti Web, Realizzazione Siti Web - Servizi IT</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <link href="css/app.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html4shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body data-spy="scroll" data-target=".navbar">
-
-<header role="banner">
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/"><img src="assets/img/LOGO_SMALL.png" id="bar-logo" alt="We Can" width="120" style="opacity: 0;"></a>
-            </div>
-            <div id="navbar" class="container navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li id="homeBtn"><a href="/">Home</a></li>
-                    <li id="aboutBtn"><a href="about">Chi Siamo</a></li>
-                    <li><a href="grafica">Web & Grafica</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servizi IT <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#saas">Software as a Service SaaS</a></li>
-                            <li><a href="#personalizzato">Software personalizzato</a></li>
-                            <li><a href="#hardware">Hardware - Software - Periferiche e Accessori</a></li>
-                            <li><a href="#locazione">Locazione operativa</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="altro">Altri Servizi</a></li>
-                    <li ng-class="{active: navCtrl.case}"><a href="case">Case Studies</a></li>
-                    <li><a href="contatti">Contatti</a></li>
-                    <!-- <li><a href="#">News</a></li> -->
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+@endsection
 
 
+@section('contenuto')
 <section id="service-intro" class="jumbotron welcome">
     <div class="container">
         <div class="welcome-message">
@@ -271,9 +225,4 @@
         </div>
     </div>
 </section>
-
-@include('partials.fondo')
-
-<script src="js/all.js"></script>
-</body>
-</html>
+@endsection

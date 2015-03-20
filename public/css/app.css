@@ -8005,6 +8005,9 @@ a:hover {
   color: white;
   z-index: 1001;
 }
+.footer small {
+  color: white;
+}
 .footer a:link {
   color: #347ab8;
 }
@@ -8013,6 +8016,15 @@ a:hover {
 }
 .footer a:hover {
   color: #122159;
+}
+.footer .bianco:link {
+  color: white;
+}
+.footer .bianco:visited {
+  color: white;
+}
+.footer .bianco:hover {
+  color: white;
 }
 #barra {
   position: relative;

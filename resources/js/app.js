@@ -55,12 +55,10 @@
       console.log('pathname ' + pathname);
       if (pathname === '/') {
         $('#homeBtn').addClass('active');
-      } else if (pathname === '/about') {
-        $('#aboutBtn').addClass('active');
-      } else if (pathname === '/altro') {
-          $('#otherBtn').addClass('active');
       } else if (pathname === '/contatti') {
           $('#contactsBtn').addClass('active');
+      } else if (pathname === '/case') {
+          $('#caseBtn').addClass('active');
       }
     });
 
@@ -94,6 +92,17 @@
             telefono: {
                 required: 'Per favore inserite il vostro numero di telefono',
                 digits: 'Inserite un numero di telefono valido'
+            },
+            email: {
+                required: 'Per favore inserite il vostro indirizzo e-mail',
+                email: 'Per favore inserite un indirizzo e-mail valido.'
+            },
+            txtMsg: {
+                required: 'Per favore lasciateci un breve messaggio',
+                minlength: 'Il messaggio non è abbastanza lungo'
+            },
+            consenso: {
+                required: 'Per poter rispondere alla vostra richiesta dovete consentire al trattamento dei vostri dati'
             }
         },
         highlight: function(element) {
