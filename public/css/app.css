@@ -8155,6 +8155,10 @@ a:hover {
     transition: background 0.5s ease-in-out;
   }
 }
+.carousel-caption {
+  top: 10px;
+  bottom: auto;
+}
 .vertical-align {
   display: -webkit-flex;
   display: -ms-flexbox;

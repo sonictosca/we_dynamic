@@ -30,6 +30,16 @@
         }
     });
 
+    if (window.location.pathname === '/case') {
+        var contenuto = document.querySelector('#contenuto');
+        var msnry = new Masonry(contenuto, {
+            itemSelector: '.hreview'
+        });
+
+        imagesLoaded(contenuto, function () {
+            msnry.layout();
+        });
+    }
     /*
       funzione di scroll per navigazione
 

@@ -2,13 +2,13 @@
 
 @section('titolo')
     <title>WE CAN GROUP | Web Agency, Creazione Siti Web, Realizzazione Siti Web - Case Studies</title>
-@endsection
+@stop
 
 @section('contenuto')
     <section id="impact">
         <div class="container">
             <h1>Case Studies</h1>
-            <div id="contenuto" class="reviews js-masonry" data-masonry-options='{"itemSelector": ".hreview"}'>
+            <div id="contenuto" class="reviews">
                 @foreach($cases as $caseStudy)
                     <div class="hreview review-item-1 thumbnail col-sm-6 col-md-4">
                         <a href="{{ $caseStudy->collegamento }}" target="_blank"><img src="uploaded/{{ $caseStudy->immagine }}" class="img-responsive" alt="{{ $caseStudy->nome }}"></a>
@@ -25,4 +25,4 @@
             </div>
         </div>
     </section>
-@endsection
+@stop

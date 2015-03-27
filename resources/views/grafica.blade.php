@@ -205,62 +205,74 @@
           ci permette di realizzare siti web di assoluto livello e a prezzi competitivi
           rispetto al mercato.
         </p>
-        <h2>Siti Web per ogni esigenza</h2>
-        <p>
-          Possiamo realizzare siti web statici, siti web dinamici arricchiti da animazioni
-          in javascript, siti e-commerce per il commercio elettronico, portali complessi
-          multilingua, siti mobile e blog per aziende e professionisti.
-        </p>
-        <p>
-          Su richiesta, ognuno dei siti che realizziamo può avere integrato un pannello di controllo
-          CMS, che consente di aggiornare, modificare o creare nuovi contenuti e pagine, in maniera
-          semplice e del tutto autonoma.
-        </p>
+          <div class="col-md-8">
+            <h2>Siti Web per ogni esigenza</h2>
+            <p>
+              Possiamo realizzare siti web statici, siti web dinamici arricchiti da animazioni
+              in javascript, siti e-commerce per il commercio elettronico, portali complessi
+              multilingua, siti mobile e blog per aziende e professionisti.
+            </p>
+            <p>
+              Su richiesta, ognuno dei siti che realizziamo può avere integrato un pannello di controllo
+              CMS, che consente di aggiornare, modificare o creare nuovi contenuti e pagine, in maniera
+              semplice e del tutto autonoma.
+            </p>
+          </div>
+          <div class="col-md-4">
+              <img src="assets/img/old_site/web-design.jpg" alt="web design" class="img-responsive">
+          </div>
       </div>
         <div id="sitiMobile" class="starter-template col-md-8">
-          <h1>Il tuo sito e la tua attività su ogni dispositivo</h1>
-          <p>
-            Il <strong>futuro è mobile</strong>, il web ormai è accessibile e alla
-            portata di tutti grazie alle connessioni veloci e ai cellulari sempre più smart,
-            ed infatti giorno dopo giorno aumentano gli utenti che utilizzano gli smartphone per
-            navigare, ricercare prodotti, servizi ed acquistare su internet.
-          </p>
-          <p>
-            Nel mondo ci sono più cellulari che pc, quindi è facile comprendere l'importanza di avere
-            un sito web dotato di tecnologia <strong>responsive</strong>, ovvero in grado di adattare
-            l'esperienza di navigazione a seconda del dispositivo su cui viene visualizzato.
-          </p>
-          <p>
-            Le statistiche dicono a tale proposito che gli utenti dotati di smartphone, solitamente
-            sono costretti ad abbandonare i siti non mobile ready, a causa di una <strong>cattiva
-            esperienza di navigazione</strong>, per questo è fondamentale dotarsi della tecnologia
-            <strong>responsive</strong>, altrimenti si <strong>rischia di perdere potenziali clienti</strong>.
-          </p>
-          <p>
-            Fra l'altro avere un sito web fruibile su dispositivi mobile, <strong>porta grandi vataggi anche
-            dal punto di vista della visibilità sui motori di ricerca</strong>, dato che l'algoritmo di
-            Google Mobile, predilige i siti di questo tipo mettendoli in cima nei risultati di ranking.
-          </p>
-          <h2>Chi ha bisogno di un sito mobile ready?</h2>
-          <p>
-            <ul>
-              <li>Chiunque ha già un sito e vuole renderlo accesibile sui dispositivi mobile.</li>
-              <li>Chi vuole aumentare la visibilità del proprio sito anche sui motori di ricerca mobile.</li>
-              <li>Chi è previdente e a fronte di un investimento irrisorio, intende proporsi su un mercato enorme e florido.</li>
-              <li>Chi vuole soddifare le esigenze di un numero sempre maggiore di utenti.</li>
-              <li>Chi vuole vendere beni o servizi ad utenti mobile che sono notoriamente più propensi all'acquisto</li>
-            </ul>
-          </p>
-          <h2>Sviluppo Siti Mobile Ready per tutti i TABLET e gli SMARTPHONE!</h2>
-          <p>
-            Noi di We Can Group possiamo sviluppare in <strong>brevissimo tempo</strong> e
-            <strong>a prezzi altamente competitivi</strong>, siti web mobile ready belli
-            e performanti, riprendendo la grafica ed il layout del tuo sito web principale.
-          </p>
-          <p>
-            Sei ancora indeciso? Non perdere tempo, anticipa i tuoi concorrenti e rendi la tua
-            azienda mobile ready!
-          </p>
+            <div class="col-md-4">
+                <img src="assets/img/old_site/iphone.png" alt="iPhone" class="img-responsive">
+            </div>
+            <div class="col-md-8">
+              <h1>Il tuo sito e la tua attività su ogni dispositivo</h1>
+              <p>
+                Il <strong>futuro è mobile</strong>, il web ormai è accessibile e alla
+                portata di tutti grazie alle connessioni veloci e ai cellulari sempre più smart,
+                ed infatti giorno dopo giorno aumentano gli utenti che utilizzano gli smartphone per
+                navigare, ricercare prodotti, servizi ed acquistare su internet.
+              </p>
+              <p>
+                Nel mondo ci sono più cellulari che pc, quindi è facile comprendere l'importanza di avere
+                un sito web dotato di tecnologia <strong>responsive</strong>, ovvero in grado di adattare
+                l'esperienza di navigazione a seconda del dispositivo su cui viene visualizzato.
+              </p>
+              <p>
+                Le statistiche dicono a tale proposito che gli utenti dotati di smartphone, solitamente
+                sono costretti ad abbandonare i siti non mobile ready, a causa di una <strong>cattiva
+                esperienza di navigazione</strong>, per questo è fondamentale dotarsi della tecnologia
+                <strong>responsive</strong>, altrimenti si <strong>rischia di perdere potenziali clienti</strong>.
+              </p>
+              <p>
+                Fra l'altro avere un sito web fruibile su dispositivi mobile, <strong>porta grandi vataggi anche
+                dal punto di vista della visibilità sui motori di ricerca</strong>, dato che l'algoritmo di
+                Google Mobile, predilige i siti di questo tipo mettendoli in cima nei risultati di ranking.
+              </p>
+            </div>
+            <div class="col-md-12">
+              <h2>Chi ha bisogno di un sito mobile ready?</h2>
+              <p>
+                <ul>
+                  <li>Chiunque ha già un sito e vuole renderlo accesibile sui dispositivi mobile.</li>
+                  <li>Chi vuole aumentare la visibilità del proprio sito anche sui motori di ricerca mobile.</li>
+                  <li>Chi è previdente e a fronte di un investimento irrisorio, intende proporsi su un mercato enorme e florido.</li>
+                  <li>Chi vuole soddifare le esigenze di un numero sempre maggiore di utenti.</li>
+                  <li>Chi vuole vendere beni o servizi ad utenti mobile che sono notoriamente più propensi all'acquisto</li>
+                </ul>
+              </p>
+              <h2>Sviluppo Siti Mobile Ready per tutti i TABLET e gli SMARTPHONE!</h2>
+              <p>
+                Noi di We Can Group possiamo sviluppare in <strong>brevissimo tempo</strong> e
+                <strong>a prezzi altamente competitivi</strong>, siti web mobile ready belli
+                e performanti, riprendendo la grafica ed il layout del tuo sito web principale.
+              </p>
+              <p>
+                Sei ancora indeciso? Non perdere tempo, anticipa i tuoi concorrenti e rendi la tua
+                azienda mobile ready!
+              </p>
+            </div>
         </div>
         <div id="cms" class="starter-template col-md-8">
           <h1>
@@ -326,6 +338,7 @@
         </div>
         <div id="commerce" class="starter-template col-md-8">
           <h1>Sviluppo piattaforme web professionali per il Commercio Elettronico</h1>
+            <img src="assets/img/old_site/commerce.png" alt="e-commerce" class="img-responsive">
           <p>
             <em>Vorresti vendere on-line i prodotti o i servizi offerti dalla tua azienda?</em><br />
             Allora quello che ti serve è un sito per il commercio elettronico, meglio conosciuto come
@@ -349,13 +362,18 @@
           <p>
             Queste sono le caratteristiche dello "shopping cart ideale" che sono proprie del negozio on-line.
           </p>
-          <h3>Modalità di pagamento supportate</h3>
-          <p>
-            <ul>
-              <li>PayPal</li>
-              <li>Banca Sella</li>
-            </ul>
-          </p>
+            <div class="col-md-8">
+              <h3>Modalità di pagamento supportate</h3>
+              <p>
+                <ul>
+                  <li>PayPal</li>
+                  <li>Banca Sella</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-md-4">
+                <img src="assets/img/old_site/paypal.jpg" alt="modalità di pagamento" class="img-responsive">
+            </div>
           <h3>Caratteristiche dell'offerta</h3>
           <p>
             <ul>
@@ -396,29 +414,34 @@
         </div>
         <div id="seo" class="starter-template col-md-8">
           <h1>Ottimizzazione siti web per il posizionamento nei motori di ricerca</h1>
-          <p>
-            <em>
-              Comprereste un quadro di Picasso per poi tenerlo in cassaforte?
-              Oppure un bell'orologio per poi lasciarlo nel cassetto?
-            </em>
-            Naturalmente no! Lo stesso discorso vale anche per il vostro sito web.
-            Non è sufficente realizzare un sito, bisogna <strong>renderlo visibile!</strong>
-          </p>
-          <p>
-            Per ottenere questo scopo <strong>i motori di ricerca</strong> come
-            <strong>Google, Yahoo e Bing</strong>, giocano un ruolo determinante,
-            poichè sono lo strumento più utilizzato dagli utenti per trovare servizi,
-            prodotti ed informazioni sul web.
-          </p>
-          <p>
-            Le statistiche ci dicono però che l'utente medio, non va oltre la
-            <strong>seconda pagina</strong> dei risultati di un motore di ricerca, quindi è fondamentale
-            essere ai primi posti del ranking, per trarre benefici concreti in termini di
-            <strong>traffico e visibilità</strong>. Naturalmente non è semplice raggiungere questo risultato,
-            ottenibile solo rivolgendosi ad una <strong>SEO agency</strong> con una <strong>forte esperienza di
-            search engine optimization</strong>, necessaria per compiere operazioni ed attività che
-            garantiscono una corretta indicizzazione ed un <strong>posizionamento organico</strong> ottimale.
-          </p>
+            <div class="col-md-4">
+                <img src="assets/img/old_site/motori.jpg" alt="Motori di ricerca" class="img-responsive">
+            </div>
+            <div class="col-md-8">
+              <p>
+                <em>
+                  Comprereste un quadro di Picasso per poi tenerlo in cassaforte?
+                  Oppure un bell'orologio per poi lasciarlo nel cassetto?
+                </em>
+                Naturalmente no! Lo stesso discorso vale anche per il vostro sito web.
+                Non è sufficente realizzare un sito, bisogna <strong>renderlo visibile!</strong>
+              </p>
+              <p>
+                Per ottenere questo scopo <strong>i motori di ricerca</strong> come
+                <strong>Google, Yahoo e Bing</strong>, giocano un ruolo determinante,
+                poichè sono lo strumento più utilizzato dagli utenti per trovare servizi,
+                prodotti ed informazioni sul web.
+              </p>
+              <p>
+                Le statistiche ci dicono però che l'utente medio, non va oltre la
+                <strong>seconda pagina</strong> dei risultati di un motore di ricerca, quindi è fondamentale
+                essere ai primi posti del ranking, per trarre benefici concreti in termini di
+                <strong>traffico e visibilità</strong>. Naturalmente non è semplice raggiungere questo risultato,
+                ottenibile solo rivolgendosi ad una <strong>SEO agency</strong> con una <strong>forte esperienza di
+                search engine optimization</strong>, necessaria per compiere operazioni ed attività che
+                garantiscono una corretta indicizzazione ed un <strong>posizionamento organico</strong> ottimale.
+              </p>
+            </div>
           <h3>Le fasi SEO per il Posizionamento</h3>
           <p>
             La consulenza SEO offerta dalla nostra agenzia per il posizionamento dei siti in prima pagina
@@ -479,224 +502,238 @@
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/STN3yS7L54o" frameborder="0" allowfullscreen></iframe>
             </div>
           </p>
-          <p>
-            Con questo tipo di forma pubblicitaria <strong>si pagano solo gli accessi al sito</strong>
-            arrivati effettivamente tramite i click degli utenti sugli annunci presenti nei motori di ricerca.
-          </p>
-          <p>
-            Il pregio principale delle campagne pay per click su Google Adwords è sicuramente il
-            <strong>fattore tempo</strong>, dato che in poche ore è possibile pubblicare un annuncio visibile nelle
-            prime pagine dei motori di ricerca, e di conseguenza incominciare a ricevere visite sul proprio sito.
-          </p>
-          <p>
-            Questo è uno dei motivi per cui spesso abbiniamo le
-            campangne pay per click con il posizionamento organico,
-            in modo da veicolare visitatori nel frattempo in cui
-            si raggiungono i primi risultati nel ranking classico.
-          </p>
-          <p>
-            I PPC si rivelano inoltre una pubblicità dinamica e
-            flessibile, che permette pianificazioni nelle modalità
-            e nei tempi più congeniali alle proprie esigenze,
-            stabilendo anche a priori di un budget di spesa.
-          </p>
-          <h2>Le fasi di una campagna Pay per Click</h2>
-          <p>
-            La nostra <strong>consulenza per la gestione di campagne
-            Google Adwords</strong> prevede la creazione, ottimizzazione
-            ed il monitoraggio di una campagna Pay Per Click, che
-            si articola nelle seguenti fasi con diverse soluzioni:
-            <ol>
-              <li>
-                Ricerca delle parole chiave
-                <ul>
+            <div class="col-md-8">
+              <p>
+                Con questo tipo di forma pubblicitaria <strong>si pagano solo gli accessi al sito</strong>
+                arrivati effettivamente tramite i click degli utenti sugli annunci presenti nei motori di ricerca.
+              </p>
+              <p>
+                Il pregio principale delle campagne pay per click su Google Adwords è sicuramente il
+                <strong>fattore tempo</strong>, dato che in poche ore è possibile pubblicare un annuncio visibile nelle
+                prime pagine dei motori di ricerca, e di conseguenza incominciare a ricevere visite sul proprio sito.
+              </p>
+              <p>
+                Questo è uno dei motivi per cui spesso abbiniamo le
+                campangne pay per click con il posizionamento organico,
+                in modo da veicolare visitatori nel frattempo in cui
+                si raggiungono i primi risultati nel ranking classico.
+              </p>
+              <p>
+                I PPC si rivelano inoltre una pubblicità dinamica e
+                flessibile, che permette pianificazioni nelle modalità
+                e nei tempi più congeniali alle proprie esigenze,
+                stabilendo anche a priori di un budget di spesa.
+              </p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="assets/img/old_site/sem.jpg" alt="Search Engine Marketing">
+            </div>
+            <div class="col-md-12">
+              <h2>Le fasi di una campagna Pay per Click</h2>
+              <p>
+                La nostra <strong>consulenza per la gestione di campagne
+                Google Adwords</strong> prevede la creazione, ottimizzazione
+                ed il monitoraggio di una campagna Pay Per Click, che
+                si articola nelle seguenti fasi con diverse soluzioni:
+                <ol>
                   <li>
-                    Individuazione del target specifico dei potenziali clienti.
+                    Ricerca delle parole chiave
+                    <ul>
+                      <li>
+                        Individuazione del target specifico dei potenziali clienti.
+                      </li>
+                      <li>
+                        Scelta delle parole chiave più competitive e di nicchia.
+                      </li>
+                      <li>
+                        Analisi del costo medio per click.
+                      </li>
+                      <li>
+                        Analisi degli annunci della concorrenza.
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Scelta delle parole chiave più competitive e di nicchia.
+                    Definizione del budget mensile
+                    <ul>
+                      <li>
+                        Richiesta budget pubblicitario al cliente
+                      </li>
+                      <li>
+                        Analisi e previsione dei click in base al budget prestabilito.
+                      </li>
+                      <li>
+                        Eventuale definizione di una cifra più idonea per il raggiungimento deli obiettivi.
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Analisi del costo medio per click.
+                    Creazione e pubblicazione annunci pubblicitari
+                    <ul>
+                      <li>
+                        Creazione di annunci pubblicitari con testi descrittivi persuasivi.
+                      </li>
+                      <li>
+                        Pubblicazione degli asnnunci sui canali e
+                        network più idonei con link alle
+                        rispettive landing pages.
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Analisi degli annunci della concorrenza.
+                    Monitoraggio, ottimizzazione, reportistica
+                    <ul>
+                      <li>
+                        Controllo periodico della campagna.
+                      </li>
+                      <li>
+                        Analisi di tutti i dati statistici (impression,
+                        cpc, conversioni).
+                      </li>
+                      <li>
+                        Ottimizzazione campagna in ottica ROI (ritorno
+                        d'investimento).
+                      </li>
+                      <li>
+                        Reportistica mensile dei risultati ottenuti.
+                      </li>
+                    </ul>
                   </li>
-                </ul>
-              </li>
-              <li>
-                Definizione del budget mensile
-                <ul>
-                  <li>
-                    Richiesta budget pubblicitario al cliente
-                  </li>
-                  <li>
-                    Analisi e previsione dei click in base al budget prestabilito.
-                  </li>
-                  <li>
-                    Eventuale definizione di una cifra più idonea per il raggiungimento deli obiettivi.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Creazione e pubblicazione annunci pubblicitari
-                <ul>
-                  <li>
-                    Creazione di annunci pubblicitari con testi descrittivi persuasivi.
-                  </li>
-                  <li>
-                    Pubblicazione degli asnnunci sui canali e
-                    network più idonei con link alle
-                    rispettive landing pages.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Monitoraggio, ottimizzazione, reportistica
-                <ul>
-                  <li>
-                    Controllo periodico della campagna.
-                  </li>
-                  <li>
-                    Analisi di tutti i dati statistici (impression,
-                    cpc, conversioni).
-                  </li>
-                  <li>
-                    Ottimizzazione campagna in ottica ROI (ritorno
-                    d'investimento).
-                  </li>
-                  <li>
-                    Reportistica mensile dei risultati ottenuti.
-                  </li>
-                </ul>
-              </li>
-            </ol>
-          </p>
+                </ol>
+              </p>
+            </div>
         </div>
         <div id="socialMedia" class="starter-template col-md-8">
           <h1>Pianificazione attività di marketing per la promozione sui social network</h1>
-          <p>
-            I Social Network sono le <strong>community più diffuse su internet</strong>,
-            all'interno delle quali milioni di utenti in tutto il mondo si ritrovano
-            per <strong>dialogare ed interagire</strong>.
-          </p>
-          <p>
-            Giorno dopo giorno si registra una crescita esponenziale, e
-            l'adesione di massa da parte di nuovi utenti ai social network come
-            <strong>Facebook</strong> e <strong>Twitter</strong>, che sono arrivati
-            a contare oltre 600 milioni d'iscritti.
-          </p>
-          <h2>Pubblicità su Facebook e Twitter</h2>
-          <p>
-            Fare <strong>pubblicità</strong> su Facebook, Twitter o sui vari
-            Social Netwrok è possibile solo grazie ad una forma di
-            <strong>comunicazione non convenzionale</strong> ed il termine che
-            racchiude tutte le operazioni di marketing più adatte a queste
-            comunità virtuali è <strong>Social Media Marketing</strong>.
-          </p>
-          <p>
-            L'approccio corretto prevede la divulgazione di un messaggio in
-            maniera non troppo esplicita, meglio ancora se veicolato attraverso
-            una discussione proposta da un opinion leader, un concorso a premi
-            o per mezzo di un'iniziativa di <strong>marketing virale</strong>.
-          </p>
-          <p>
-            Lo scopo primario è <strong>allargare la propria audience</strong>,
-            ampliare la rete dei propri contatti, che dopo essere stati attratti
-            con iniziative di vario tipo andranno fidelizzati ed infine indirizzati
-            verso l'obiettivo commerciale.
-          </p>
-          <p>
-            Scopri nel dettaglio tutti i servizi di <strong>We Can Group</strong>
-            dedicati ai Social Network, che ti consentiranno di promuovere al meglio
-            la tua azienda!
-          </p>
-          <p>
-            <ol>
-              <li>
-                Creazione Fan Page Ottimizzata su Facebook
-                <ul>
+            <div class="col-md-4">
+                <img class="img-responsive" src="assets/img/old_site/social.jpg" alt="Social Media Marketing">
+            </div>
+            <div class="col-md-8">
+              <p>
+                I Social Network sono le <strong>community più diffuse su internet</strong>,
+                all'interno delle quali milioni di utenti in tutto il mondo si ritrovano
+                per <strong>dialogare ed interagire</strong>.
+              </p>
+              <p>
+                Giorno dopo giorno si registra una crescita esponenziale, e
+                l'adesione di massa da parte di nuovi utenti ai social network come
+                <strong>Facebook</strong> e <strong>Twitter</strong>, che sono arrivati
+                a contare oltre 600 milioni d'iscritti.
+              </p>
+            </div>
+            <div class="col-md-12">
+              <h2>Pubblicità su Facebook e Twitter</h2>
+              <p>
+                Fare <strong>pubblicità</strong> su Facebook, Twitter o sui vari
+                Social Netwrok è possibile solo grazie ad una forma di
+                <strong>comunicazione non convenzionale</strong> ed il termine che
+                racchiude tutte le operazioni di marketing più adatte a queste
+                comunità virtuali è <strong>Social Media Marketing</strong>.
+              </p>
+              <p>
+                L'approccio corretto prevede la divulgazione di un messaggio in
+                maniera non troppo esplicita, meglio ancora se veicolato attraverso
+                una discussione proposta da un opinion leader, un concorso a premi
+                o per mezzo di un'iniziativa di <strong>marketing virale</strong>.
+              </p>
+              <p>
+                Lo scopo primario è <strong>allargare la propria audience</strong>,
+                ampliare la rete dei propri contatti, che dopo essere stati attratti
+                con iniziative di vario tipo andranno fidelizzati ed infine indirizzati
+                verso l'obiettivo commerciale.
+              </p>
+              <p>
+                Scopri nel dettaglio tutti i servizi di <strong>We Can Group</strong>
+                dedicati ai Social Network, che ti consentiranno di promuovere al meglio
+                la tua azienda!
+              </p>
+              <p>
+                <ol>
                   <li>
-                    Creazione della pagina pubblica con grafica personalizzata ed ottimizzata
+                    Creazione Fan Page Ottimizzata su Facebook
+                    <ul>
+                      <li>
+                        Creazione della pagina pubblica con grafica personalizzata ed ottimizzata
+                      </li>
+                      <li>
+                        Caricamento contenuti descrittivi e fotografici ed inserimento link al sito
+                        aziendale
+                      </li>
+                      <li>
+                        Creazione tab personalizzate in linguaggio html diversificata per utenti
+                        fan e non fan
+                      </li>
+                      <li>
+                        Integrazione tab collegate ad altri social network ed applicazioni varie
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Caricamento contenuti descrittivi e fotografici ed inserimento link al sito
-                    aziendale
+                    Integrazione di Facebook sul sito aziendale
+                    <ul>
+                      <li>
+                        Integrazione di ogni pagina del sito attraverso widget, plug-in o icone sociali
+                      </li>
+                      <li>
+                        Integrazione del pulsante "mi piace" per aumento fan
+                      </li>
+                      <li>
+                        Eventuale integrazione con facebook connect
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Creazione tab personalizzate in linguaggio html diversificata per utenti
-                    fan e non fan
+                    Promozione dell'azienda su Facebook ed incremento fan
+                    <ul>
+                      <li>
+                        Individuazione delle community e gruppi per reperimento utenti target
+                      </li>
+                      <li>
+                        Creazione contenuti ed iniziative aggreganti (discussioni, sondaggi e video virali)
+                      </li>
+                      <li>
+                        Ideazione concorsi, iniziative promozionali e diffusione contenuti per aumento fan
+                      </li>
+                      <li>
+                        Creazione cupon speciali ed esclusivi per i fan su Facebook
+                      </li>
+                      <li>
+                        Promozione delle pagine attraveso campagne Facebook Advertising
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Integrazione tab collegate ad altri social network ed applicazioni varie
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Integrazione di Facebook sul sito aziendale
-                <ul>
-                  <li>
-                    Integrazione di ogni pagina del sito attraverso widget, plug-in o icone sociali
-                  </li>
-                  <li>
-                    Integrazione del pulsante "mi piace" per aumento fan
-                  </li>
-                  <li>
-                    Eventuale integrazione con facebook connect
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Promozione dell'azienda su Facebook ed incremento fan
-                <ul>
-                  <li>
-                    Individuazione delle community e gruppi per reperimento utenti target
+                    Creazione profilo Twitter ed incremento follower
+                    <ul>
+                      <li>
+                        Creazione di un profilo twitter con grafica personalizzata ed ottimizzata
+                      </li>
+                      <li>
+                        Caricamento informazioni descrittive e link sito aziendale
+                      </li>
+                      <li>
+                        Ricerca follower affini con temi trattati sul profilo twitter
+                      </li>
+                    </ul>
                   </li>
                   <li>
-                    Creazione contenuti ed iniziative aggreganti (discussioni, sondaggi e video virali)
+                    Gestione presenza sui Social Media e reputation management
+                    <ul>
+                      <li>
+                        Gestione profili social e monitoraggio costyante
+                      </li>
+                      <li>
+                        Creazione contenuti ed interazione costante con gli utenti per
+                        promuovere il brand ed ottimizzare la presenza in rete.
+                      </li>
+                      <li>
+                        Reputation management per la gestione della reputazione
+                      </li>
+                    </ul>
                   </li>
-                  <li>
-                    Ideazione concorsi, iniziative promozionali e diffusione contenuti per aumento fan
-                  </li>
-                  <li>
-                    Creazione cupon speciali ed esclusivi per i fan su Facebook
-                  </li>
-                  <li>
-                    Promozione delle pagine attraveso campagne Facebook Advertising
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Creazione profilo Twitter ed incremento follower
-                <ul>
-                  <li>
-                    Creazione di un profilo twitter con grafica personalizzata ed ottimizzata
-                  </li>
-                  <li>
-                    Caricamento informazioni descrittive e link sito aziendale
-                  </li>
-                  <li>
-                    Ricerca follower affini con temi trattati sul profilo twitter
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Gestione presenza sui Social Media e reputation management
-                <ul>
-                  <li>
-                    Gestione profili social e monitoraggio costyante
-                  </li>
-                  <li>
-                    Creazione contenuti ed interazione costante con gli utenti per
-                    promuovere il brand ed ottimizzare la presenza in rete.
-                  </li>
-                  <li>
-                    Reputation management per la gestione della reputazione
-                  </li>
-                </ul>
-              </li>
-            </ol>
-          </p>
+                </ol>
+              </p>
+            </div>
         </div>
         <div id="fiere" class="starter-template col-md-8">
           <h1>Fiere ed Eventi</h1>

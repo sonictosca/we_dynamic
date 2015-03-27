@@ -9,7 +9,7 @@
 <section id="service-intro" class="jumbotron welcome">
     <div class="container">
         <div class="welcome-message">
-            <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
+            <!--<img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">-->
             <p class="text-center">
                 Hai un'esigenza diversa dal web? Yes, We Can&hellip;<br />We Can Group!
             </p>
@@ -43,7 +43,7 @@
                 @include('partials.contatti')
             </div>
             <div class="starter-template col-md-8" id="saas">
-                <h1>Il modello SaaS piace sempre di più un'indagine rivela che oltreù
+                <h1>Il modello SaaS piace sempre di più un'indagine rivela che oltre
                     il 90% delle aziende continuerà ad investire su queste soluzioni</h1>
                 <h2>Descrizione</h2>
                 <p>

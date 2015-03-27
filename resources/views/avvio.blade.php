@@ -21,13 +21,13 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Il tuo Business ha bisoigno di un passaggio?</h1>
-                        <div class="row">
+                        <!--<div class="row">
                             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                                 <p>
                                     <img src="assets/img/LOGO.png" class="img-responsive" alt="We Can Group">
                                 </p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -35,13 +35,13 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Ascoltiamo le tue esigenze</h1>
-                        <div class="row">
+                        <!--<div class="row">
                             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                                 <p>
                                     <img src="assets/img/LOGO.png" class="img-responsive" alt="We Can Group">
                                 </p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -49,13 +49,13 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Realizziamo i tuoi progetti</h1>
-                        <div class="row">
+                        <!--<div class="row">
                             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                                 <p>
                                     <img src="assets/img/LOGO.png" class="img-responsive" alt="We Can Group">
                                 </p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -63,13 +63,13 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Raggiungi i tuoi obiettivi</h1>
-                        <div class="row">
+                        <!--<div class="row">
                             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                                 <p>
                                     <img src="assets/img/LOGO.png" class="img-responsive" alt="We Can Group">
                                 </p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>

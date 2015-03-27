@@ -8,7 +8,7 @@
 <section id="about-intro" class="jumbotron welcome">
     <div class="container">
       <div class="welcome-message">
-        <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
+        <!--<img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">-->
         <p class="text-center">
           siamo una realtà con <em>un'ampia</em> offerta di servizi avanzati di comunicazione, soluzioni informatiche, tecnologie e office.
         </p>
@@ -44,6 +44,7 @@
               sviluppi del mercato sono i componenti che hanno dato vita alla nostra filosofia, al nostro marchio: <strong>"WE CAN GROUP"</strong></em>
             </p>
               <div id="people">
+                  <br /><br />
                 <h2>Team Leader</h2>
                 <div class="media hidden-sm hidden-xs">
                   <div class="media-left">
@@ -78,6 +79,38 @@
                               Si adopera nel mettere il suo know-how al servizio del marketing e capire quali strategie e prodotti proporre ai propri
                               clienti. Stefano si distingue per le sue abilità comunicative, ma sopratutto per la chiarezza con le quale descrive e propone
                               prodotti e servizi.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="media hidden-sm hidden-xs">
+                      <div class="media-left">
+                          <img class="media-object" src="assets/img/stefano.jpg" alt="Riccardo Sartori">
+                      </div>
+                      <div class="media-body">
+                          <h4 class="media-heading">Riccardo Sartori</h4>
+                          <p>
+                              <em>La semplicità è la raffinatezza definitiva. - Leonardo da Vinci</em>
+                          </p>
+                          <p>
+                              Continua ricerca della qualità, definisce e sviluppa i progetti di We Can Group cercando sempre
+                              di ottenere le massime prestazioni e la massima affidabilità da ogni prodotto che viene consegnato ai clienti
+                          </p>
+                      </div>
+                  </div>
+                  <div class="row hidden-md hidden-lg">
+                      <div class="col-md-4">
+                          <img class="img-responsive" src="assets/img/stefano.jpg" alt="Riccardo Sartori">
+                      </div>
+                      <div class="col-md-8">
+                          <h3>Riccardo Sartori</h3>
+                      </div>
+                      <div class="col-md-12">
+                          <p>
+                              <em>La semplicità è la raffinatezza definitiva. - Leonardo da Vinci</em>
+                          </p>
+                          <p>
+                              Continua ricerca della qualità, definisce e sviluppa i progetti di We Can Group cercando sempre
+                              di ottenere le massime prestazioni e la massima affidabilità da ogni prodotto che viene consegnato ai clienti
                           </p>
                       </div>
                   </div>
@@ -365,5 +398,4 @@
       </div>
     </div>
   </section>
-
 @stop

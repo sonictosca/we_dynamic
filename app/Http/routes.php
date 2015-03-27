@@ -23,8 +23,12 @@ Route::get('privacy', 'PrincipaleController@privacy');
 Route::get('case', 'PrincipaleController@caseStudy');
 
 Route::get('admin', 'AdminController@index');
+Route::get('admin/listcase', 'AdminController@indexCases');
+Route::get('admin/listnews', 'AdminController@indexNews');
 Route::get('admin/addcase', 'AdminController@createCase');
+Route::get('admin/addnews', 'AdminController@addNews');
 Route::post('admin/addcase', 'AdminController@storeCase');
+Route::post('admin/addnews', 'AdminController@storeNews');
 Route::get('admin/editcase/{useCase}', 'AdminController@editCase');
 Route::put('admin/editcase/{useCase}', 'AdminController@updateCase');
 Route::get('admin/upcase/{case}', 'AdminController@upCase');

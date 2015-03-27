@@ -40,7 +40,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <a href="admin/addcase" class="btn btn-default" href="admin aggiungi" role="button">Aggiungi Case Study</a>
+                <a href="admin/addcase" class="btn btn-default" role="button">Aggiungi Case Study</a>
             </div>
         </div>
     </div>

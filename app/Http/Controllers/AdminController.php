@@ -2,6 +2,7 @@
 
 use App\Http\Requests;
 use App\UseCase;
+use App\News;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
@@ -14,6 +15,10 @@ class AdminController extends Controller {
     }
 
     public function index() {
+        return view('admin.main');
+    }
+
+    public function indexCases() {
         $cases = UseCase::orderBy('posizione', 'DESC')->get();
         $massimo = UseCase::all()->max('posizione');
         $minimo = UseCase::all()->min('posizione');
@@ -39,7 +44,7 @@ class AdminController extends Controller {
         $case->immagine = $request->file('immagine')->getClientOriginalName();
         $request->file('immagine')->move($destinationPath, $request->file('immagine')->getClientOriginalName());
         $case->save();
-        return redirect('admin');
+        return redirect('admin/listcase');
     }
 
     public function editCase($useCase) {
@@ -59,7 +64,7 @@ class AdminController extends Controller {
             $request->file('immagine')->move($destinationPath, $request->file('immagine')->getClientOriginalName());
         }
         $use->save();
-        return redirect('admin');
+        return redirect('admin/listcase');
     }
 
     public function upCase($case) {
@@ -71,7 +76,7 @@ class AdminController extends Controller {
         $precedente->posizione = $useTemp;
         $useCase->save();
         $precedente->save();
-        return redirect('admin');
+        return redirect('admin/listcase');
     }
 
     public function downCase($case) {
@@ -83,12 +88,34 @@ class AdminController extends Controller {
         $successivo->posizione = $useTemp;
         $useCase->save();
         $successivo->save();
-        return redirect('admin');
+        return redirect('admin/listcase');
     }
 
     public function deleteCase($case) {
         $useCase = UseCase::find($case);
         $useCase->delete();
-        return redirect('admin');
+        return redirect('admin/listcase');
+    }
+
+    public function indexNews() {
+        $news = News::all();
+        return view('admin.news.list', compact('news'));
+    }
+
+    public function addNews() {
+        return view('admin.news.addNews');
+    }
+
+    public function storeNews(Request $request) {
+        $news = new News;
+        $news->titolo = $request->input('titolo');
+        $news->contenuto = $request->input('contenuto');
+        $news->inizio = $request->input('inizio');
+        $news->fine = $request->input('fine');
+        $destinationPath = public_path().'/uploaded/news/';
+        $news->immagine = $request->file('immagine')->getClientOriginalName();
+        $request->file('immagine')->move($destinationPath, $request->file('immagine')->getClientOriginalName());
+        $news->save();
+        return redirect('admin/listnews');
     }
 }
