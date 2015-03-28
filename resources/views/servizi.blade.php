@@ -9,7 +9,7 @@
 <section id="service-intro" class="jumbotron welcome">
     <div class="container">
         <div class="welcome-message">
-            <!--<img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">-->
+            <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
             <p class="text-center">
                 Hai un'esigenza diversa dal web? Yes, We Can&hellip;<br />We Can Group!
             </p>

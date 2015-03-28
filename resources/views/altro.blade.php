@@ -8,7 +8,7 @@
     <section id="other-intro" class="jumbotron welcome">
         <div class="container">
             <div class="welcome-message">
-                <!--<img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">-->
+                <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
                 <p class="text-center">
                     Ogni parola ha la sua importanza!
                 </p>

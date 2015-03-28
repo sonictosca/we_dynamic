@@ -21,6 +21,7 @@ Route::get('altro', 'PrincipaleController@altro');
 Route::get('contatti', 'PrincipaleController@contatti');
 Route::get('privacy', 'PrincipaleController@privacy');
 Route::get('case', 'PrincipaleController@caseStudy');
+Route::put('contatto', 'ContattiController@invia');
 
 Route::get('admin', 'AdminController@index');
 Route::get('admin/listcase', 'AdminController@indexCases');

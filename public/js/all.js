@@ -17736,6 +17736,12 @@ if ( typeof define === 'function' && define.amd ) {
         }
     });
 
+    /*
+     * Funzione per lanciare layout su masonry
+     * solo una volta che tutte le immagini sono 
+     * state caricate
+     */
+
     if (window.location.pathname === '/case') {
         var contenuto = document.querySelector('#contenuto');
         var msnry = new Masonry(contenuto, {
@@ -17746,29 +17752,17 @@ if ( typeof define === 'function' && define.amd ) {
             msnry.layout();
         });
     }
+    
     /*
-      funzione di scroll per navigazione
-
-
-    function scrollToSection(id) {
-      var sectionTag = $('#' + id);
-      $('html, body').animate({scrollTop: sectionTag.offset().top}, 'slow');
-    }
-
-    $("#graphicsDesignLink").click(function() {
-      scrollToSection('graphicsDesign');
-      $('#graphicsDesignBtn').addClass('active');
-    });
-    */
-    /*
-      Funzione di avvio aggiunge style alla barra di navigazione
-    */
+     * Funzione di avvio aggiunge stili alla barra di navigazione,
+     * inizializza e valida la form di contatto
+     */
 
     $().ready(function() {
+        $('#errore').addClass('hide');
+        $('#successo').addClass('hide');
       var pathname = window.location.pathname;
       var url = window.location.href;
-      console.log('url ' + url);
-      console.log('pathname ' + pathname);
       if (pathname === '/') {
         $('#homeBtn').addClass('active');
       } else if (pathname === '/contatti') {
@@ -17843,6 +17837,34 @@ if ( typeof define === 'function' && define.amd ) {
             } else {
                 error.insertAfter(element);
             }
+        },
+        submitHandler: function(form) {
+            var dati = {
+                nomeCognome: $('#nomeCognome').val(),
+                telefono: $('#telefono').val(),
+                email: $('#email').val(),
+                txtMsg: $('#txtMsg').val()
+            }
+            $('#nomeCognome').val('');
+            $('#telefono').val('');
+            $('#email').val('');
+            $('#txtMsg').val('');
+            var method = $('input[name="_method"]').val() || 'POST';
+            var url = $(form).prop('action');
+            $.ajax({
+                type: method,
+                url: url,
+                headers: {
+                    'X-CSRF-Token': $('input[name="_token"]').val()
+                },
+                data: dati,
+                success: function() {
+                    $('#successo').removeClass('hide');
+                },
+                error: function() {
+                    $('#errore').removeClass('hide');
+                }
+            });
         }
     });
 }) ();

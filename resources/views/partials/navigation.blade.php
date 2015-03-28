@@ -16,7 +16,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Chi Siamo <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="about#about-intro" data-target="#about-intro">Azienda</a></li>
+                            <li><a href="about" data-target="#about-intro">Azienda</a></li>
                             <li><a href="about#people" data-target="#people">People</a></li>
                         </ul>
                     </li>
@@ -51,7 +51,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Altri Servizi <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="altro#other-intro" data-target="#other-intro">Traduzioni</a></li>
+                            <li><a href="altro" data-target="#other-intro">Traduzioni</a></li>
                             <li><a href="altro#interpretariato" data-target="#interpretariato">Interpretariato</a></li>
                         </ul>
                     </li>
