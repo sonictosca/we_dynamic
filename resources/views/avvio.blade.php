@@ -20,7 +20,7 @@
             <div class="item active item-1">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Il tuo Business ha bisoigno di un passaggio?</h1>
+                        <h1>Il tuo Business ha bisogno di un passaggio?</h1>
                         <!--<div class="row">
                             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                                 <p>
@@ -89,22 +89,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="starter-template">
+                <div>
                     <h1>IT & WEB SOLUTIONS</h1>
                     <p>
                         We Can Group è un'azienda che opera con successo nel settore dell'Information Technology e nella
                         realizzazione di soluzioni web.<br />
-                        Dalle esigenze del cliente nascono le nostre proposte che realizziamo con progetto creativi e funzionali.
+                        Dalle esigenze del cliente nascono le nostre proposte che realizziamo con progetti creativi e funzionali.
                     </p>
                     <p>
-                        Offriamo diverse tipologie di servizi, dallo studio d'immagine coordinat (logo, biglietti da visita,
+                        Offriamo diverse tipologie di servizi, dallo studio d'immagine coordinata (logo, biglietti da visita,
                         carta intestata, brochure, etc.) alla realizzazione di siti internet statici, siti internet dinamici,
                         siti e-commerce per il commercio elettronico, siti internet mobile, portali complessi multilingua,
                         blog oltre a sviluppare soluzioni personalizzate web-based.
                     </p>
                     <p>
                         Ci occupiamo della promozione del sito internet sui motori di ricerca (SEM e SEO) e sui social network,
-                        dal servizio di traduzione ai servizi fotografici e video.
+                            dal servizio di traduzione ai servizi fotografici e video, altre ad organizzare la tua immagine e il tuo 
+                            spazio espositivo in fiere ed eventi.
                     </p>
                     <p>
                         Siamo inoltre qualificati nella consulenza, progettazione e realizzazione di progetti informatici legati
@@ -123,7 +124,7 @@
                             <img src="assets/img/pallacanestro.png" alt="pallacanestro Cantù" class="img-responsive">
                         </div>
                         <div class="col-md-8">
-                            <h2>Official Sponsor e fornitore tecnologico di Pallacanestro Cantù</h2>
+                            <h2 style="margin-top: 0;">Official Sponsor e fornitore tecnologico di Pallacanestro Cantù</h2>
                             We Can Group è sponsor ufficiale di Pallacenstro Cantù ed è stato scelto come fornitore e realizzatore del sito
                             ufficiale della squadra di Serie A e delle squadre giovanili (Progetto Giovani Cantù).
                         </div>

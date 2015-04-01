@@ -38,53 +38,113 @@ body {
 }
 
 .carousel .item-1 {
-  background: url(../assets/img/passaggio.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/passaggio_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/passaggio_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .item-2 {
-  background: url(../assets/img/ascoltiamo.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/ascoltiamo_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/ascoltiamo_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .item-3 {
-  background: url(../assets/img/realizziamo.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/realizziamo_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/realizziamo_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .item-4 {
-  background: url(../assets/img/raggiungi.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/raggiungi_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/raggiungi_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .graph-1 {
-  background: url(../assets/img/web_design.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/web_design_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/web_design_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .graph-2 {
-  background: url(../assets/img/sem_seo.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/sem_seo_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/sem_seo_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .graph-3 {
-  background: url(../assets/img/brand.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/brand_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/brand_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .graph-4 {
-  background: url(../assets/img/commerce.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/commerce_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/commerce_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .graph-5 {
-  background: url(../assets/img/social.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/social_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/social_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel .graph-6 {
-  background: url(../assets/img/foto.jpg) center center no-repeat;
-  background-size: cover;
+    @media (min-width: @screen-md-min) {
+          background: url(../assets/img/foto_lg.jpg) center center no-repeat;
+          background-size: cover;
+    }
+    @media (max-width: @screen-sm-max) {
+        background: url(../assets/img/foto_sm.jpg) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 .carousel-inner > .item > img {
@@ -219,7 +279,7 @@ a:hover {
 
 #about-intro {
   @media (max-width: @screen-sm-max) {
-    background: #191919 url('../assets/img/team.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/team_sm.jpg') center center no-repeat;
     .welcome-message {
       .img-responsive {
         max-width: 38%;
@@ -229,7 +289,7 @@ a:hover {
 
   @media (min-width: @screen-md-min) {
     height: 540px;
-    background: #191919 url('../assets/img/team.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/team_lg.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -242,7 +302,7 @@ a:hover {
 
 #service-intro {
   @media (max-width: @screen-sm-max) {
-    background: #191919 url('../assets/img/service.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/service_sm.jpg') center center no-repeat;
     .welcome-message {
       .img-responsive {
         max-width: 38%;
@@ -252,7 +312,30 @@ a:hover {
 
   @media (min-width: @screen-md-min) {
     height: 540px;
-    background: #191919 url('../assets/img/service.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/service_lg.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .welcome-message {
+      right: 50%;
+    }
+  }
+}
+
+#contatti-intro {
+  @media (max-width: @screen-sm-max) {
+    background: #191919 url('../assets/img/contatti_sm.jpg') center center no-repeat;
+    .welcome-message {
+      .img-responsive {
+        max-width: 38%;
+      }
+    }
+  }
+
+  @media (min-width: @screen-md-min) {
+    height: 540px;
+    background: #191919 url('../assets/img/contatti_lg.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -265,7 +348,7 @@ a:hover {
 
 #other-intro {
   @media (max-width: @screen-sm-max) {
-    background: #191919 url('../assets/img/traduzioni.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/traduzioni_sm.jpg') center center no-repeat;
     .welcome-message {
       .img-responsive {
         max-width: 38%;
@@ -275,7 +358,7 @@ a:hover {
 
   @media (min-width: @screen-md-min) {
     height: 540px;
-    background: #191919 url('../assets/img/traduzioni.jpg') center center no-repeat;
+    background: #191919 url('../assets/img/traduzioni_lg.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -425,4 +508,13 @@ a:hover {
       color: @gray-lighter;
     }
   }
+}
+
+dd {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.myList {
+    list-style-type: disc;
 }

@@ -37,13 +37,17 @@
      */
 
     if (window.location.pathname === '/case') {
-        var contenuto = document.querySelector('#contenuto');
+/*        var contenuto = document.querySelector('#contenuto');
         var msnry = new Masonry(contenuto, {
             itemSelector: '.hreview'
         });
 
         imagesLoaded(contenuto, function () {
             msnry.layout();
+        });*/
+        var $contenuto = $('#contenuto');
+        $contenuto.imagesLoaded(function() {
+            $contenuto.masonry();
         });
     }
     

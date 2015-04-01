@@ -20,8 +20,8 @@
                     @foreach($news as $new)
                         <tr>
                             <td>{{ $new->titolo }}</td>
-                            <td>{{ $new->inizio or '##' }}</td>
-                            <td>{{ $new->fine or '##' }}</td>
+                            <td>{{ isset($new->inizio) ? $new->inizo : '##' }}</td>
+                            <td>{{ isset($new->fine) ? $new->fine : '##' }}</td>
                             <td>{{ $new->created_at }}</td>
                             <td>{{ $new->updated_at }}</td>
                             <td><a href="#" class="btn btn-primary" role="button">Elimina</a></td>

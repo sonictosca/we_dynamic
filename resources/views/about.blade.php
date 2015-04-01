@@ -7,12 +7,12 @@
 @section('contenuto')
 <section id="about-intro" class="jumbotron welcome">
     <div class="container">
-      <div class="welcome-message">
+      <!--<div class="welcome-message">
         <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
         <p class="text-center">
           siamo una realtà con <em>un'ampia</em> offerta di servizi avanzati di comunicazione, soluzioni informatiche, tecnologie e office.
         </p>
-      </div>
+      </div>-->
     </div>
   </section>
 
@@ -20,7 +20,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <div class="starter-template">
+            <h1>Siamo una realtà con <em>un'ampia</em> offerta di servizi avanzati di comunicazione, soluzioni informatiche, tecnologie e office.</h1>
+          <div>
             <p>
               We Can Group è un'azienda innovativa in costante evoluzione che nasce dall'idea di sviluppare e sperimentare nuovi modi per impiegare
               al meglio le teconologie e le potenzialità di internet, anticipandone direzioni e tendenze.
@@ -352,7 +353,7 @@
                   </div>
                   <div class="media hidden-sm hidden-xs">
                       <div class="media-left">
-                          <img src="assets/img/Nadia.jpg" alt="Simone Colombo" class="media-object">
+                          <img src="assets/img/simone.jpg" alt="Simone Colombo" class="media-object">
                       </div>
                       <div class="media-body">
                           <h4 class="media-heading">Simone Colombo</h4>
@@ -370,7 +371,7 @@
                   </div>
                   <div class="row hidden-md hidden-lg">
                       <div class="col-md-4">
-                          <img class="img-responsive" src="assets/img/Nadia.jpg" alt="Simone Colombo">
+                          <img class="img-responsive" src="assets/img/simone.jpg" alt="Simone Colombo">
                       </div>
                       <div class="col-md-8">
                           <h3>Simone Colombo</h3>

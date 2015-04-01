@@ -7,25 +7,27 @@
 @section('contenuto')
     <section id="other-intro" class="jumbotron welcome">
         <div class="container">
-            <div class="welcome-message">
+            {{--<div class="welcome-message">
                 <img src="assets/img/LOGO.png" class="img-responsive center-block" alt="Logo We Can Group">
                 <p class="text-center">
                     Ogni parola ha la sua importanza!
                 </p>
-            </div>
+            </div>--}}
         </div>
     </section>
 
     <section id="description">
         <div class="container">
             <div class="row">
-                <div class="starter-template col-md-8">
-                    <h1>Traduzioni ed Interpretariato</h1>
+                <div class="col-md-8">
+                    <h1>Ogni parola ha la sua importanza</h1>
+                    <h2>Traduzioni ed Interpretariato</h2>
                     <p>
                         Certamente avrete investito, tempo, denaro ed energie nel decidere come
-                        comunicare il vostro messaggio e come proporre al meglio il costro prodotto
+                        comunicare il vostro messaggio e come proporre al meglio il vostro prodotto
                         o il vostro servizio.
                     </p>
+                    <img src="assets/img/old_site/traduzioni.jpg" class="img-responsive pull-left" alt="Traduzioni">
                     <p>
                         Avrete scelto e soppesato con cura le parole, la struttura della frase, lo stile;
                         analizzato e studiato come informare i vostri clienti sulla vostra attività in modo
@@ -83,6 +85,7 @@
                             </li>
                         </ul>
                         </p>
+                        <img src="assets/img/old_site/world.gif" class="img-responsive pull-right" alt="interpretariato">
                         <p>
                             Attraverso <strong>We Can Group</strong> potrete comunicare con tutto
                             il mondo in modo chiaro e preciso nella lingua del vostro interlocutore.
@@ -92,7 +95,7 @@
                             acquisiti, è far sentire chi siede di fronte a noi a proprio agio. Vi
                             accompagneremo in tutti gli stadi: servizi di interpretariato durante le
                             trattative, traduzioni e se vorrete potremo accompagnarvi durante fiere
-                            in Italia o allìestero.
+                            in Italia o all'estero.
                         </p>
                         <p>
                             Per gli operatori del turismo poter offrire ai propri clienti un interprete
